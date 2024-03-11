@@ -4089,11 +4089,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Khanh3043\\QuanLyVanChuyen\\FreightMana\\FreightMana.csproj",
+      "projectUniqueName": "D:\\Khanh3043\\FManagement\\FreightMana\\FreightMana.csproj",
       "projectName": "FreightMana",
-      "projectPath": "D:\\Khanh3043\\QuanLyVanChuyen\\FreightMana\\FreightMana.csproj",
+      "projectPath": "D:\\Khanh3043\\FManagement\\FreightMana\\FreightMana.csproj",
       "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-      "outputPath": "D:\\Khanh3043\\QuanLyVanChuyen\\FreightMana\\obj\\",
+      "outputPath": "D:\\Khanh3043\\FManagement\\FreightMana\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yA/sXcsyMCGrpfH0Hj3wznbTzh1T//VvDhggWufiMMxh3wMtjE8c7xMXWT2xPUDpOweSLLm4Snbhma0r+QLfCA==",
+  "dgSpecHash": "+OpNO3fBBNlQYFAAztcF4WS6FCcScrLXDr9+kCRxc3WKSuob2ie4XKP6/5delYqgF8yKhv0bsXrQSGpoyCaedw==",
   "success": true,
-  "projectFilePath": "D:\\Khanh3043\\QuanLyVanChuyen\\FreightMana\\FreightMana.csproj",
+  "projectFilePath": "D:\\Khanh3043\\FManagement\\FreightMana\\FreightMana.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Dell\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Dell\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

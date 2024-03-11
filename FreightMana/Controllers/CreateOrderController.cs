@@ -10,5 +10,10 @@ namespace FreightMana.Controllers
         {
             return View();
         }
+        [HttpPost]
+        public IActionResult AddOrder()
+        {
+            return View("Index");
+        }
     }
 }
