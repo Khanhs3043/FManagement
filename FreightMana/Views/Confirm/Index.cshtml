@@ -75,15 +75,30 @@
                     <th>Tổng tiền</th>
                     <th></th>
                 </tr>
-                <tr>
-                    <td>Nguyệt</td>
-                    <td>Nguyễn Thị Nguyệt</td>
-                    <td>0347698575</td>
-                    <td>Thôn 6, Quảng Giao, Quảng Xương, Thanh Hóa</td>
-                    <td>12000đ</td>
-                    <td>212000đ</td>
-                    <td><button>Xác nhận</button></td>
-                </tr>
+                @foreach (var i in ViewBag.Orders)
+                {
+                    <tr>
+                        <td><span>OD</span>@i.OrderId.ToString("D3")</td>
+                        <td>@i.Name</td>
+                        <td>@i.PhoneNumber</td>
+                        <td>@i.Address</td>
+                        <td>@i.Cost</td>
+                        <td>@(i.Cost + i.Cod)</td>
+
+                        <td>
+                            @{
+                                var textButton = @i.Status == "Chờ xác nhận" ? "Xác nhận" : "Đã nhập kho";
+
+                            }
+
+                            <form action="~/Confirm/Confirm" method="post">
+
+                                <button type="submit" value=@i.OrderId name="orderId">@textButton</button>
+                            </form>
+                            </td>
+                    </tr>
+                }
+                
             </table>
 
         </div>

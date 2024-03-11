@@ -42,7 +42,8 @@
 
         </ul>
     </nav>
-    <nav class="main">
+ 
+    <nav class="main">  
         <div class="nav-bar">
             <div class="infor">
                 <div class="avt">
@@ -58,12 +59,14 @@
                 </div>
             </div>
         </div>
-        <div class="main-list">
-            <form action="" method="get">
+        <div class="main-list" >
+            <form class="f" action="" method="get">
                 <input type="text" name="q" placeholder="Nhập từ khóa tìm kiếm...">
                 <input type="submit" value="Tìm kiếm">
             </form>
-        </div>
+		</div> 
+        <form action="~/ListOrder/SaveStatus" method="post">
+			<button class="saveBtn" type="submit" >Lưu</button>
         <div class="staff-backgr">
             <table id="modal_order">
                 <tr>
@@ -75,28 +78,41 @@
                     <th>Tổng tiền</th>
                     <th>Trạng thái</th>
                 </tr>
-                <tr>
-                    <td>Nguyệt</td>
-                    <td>Nguyễn Thị Nguyệt</td>
-                    <td>0347698575</td>
-                    <td>Thôn 6, Quảng Giao, Quảng Xương, Thanh Hóa</td>
-                    <td>12000đ</td>
-                    <td>212000đ</td>
-                    <td>
-                        <select id="shippingMethod" required>
-                            <option value="warehouse">Đã nhập kho</option>
-                            <option value="shipping">Đang giao hàng</option>
-                            <option value="received">Đã nhận hàng</option>
-                            <option value="cancel">Hủy đơn</option>
-                        </select>
-                    </td>
-                </tr>
+                @{
+                    var list = ViewBag.Orders;
+                }
+                @for (int i = 0; i < list.Count ; i++)
+                {
+                    <tr>
+                        <td><span>OD</span>@list[i].OrderId.ToString("D3")</td>
+                        <td>@list[i].Name</td>
+                        <td>@list[i].PhoneNumber</td>
+                        <td>@list[i].Address</td>
+                        <td>@list[i].Cost</td>
+                        <td>@(list[i].Cost + list[i].Cod)</td>
+
+                        <td>
+                            @{
+                                var textButton = @list[i].Status == "Chờ xác nhận" ? "Xác nhận" : "Đã nhập kho";
+
+                            }
+
+                                <select id="shippingMethod" required name="orders[@i].Status">
+                                    
+                                    <option value="Đang giao hàng" selected="@(list[i].Status == "Đang giao hàng")">Đang giao hàng</option>
+                                    <option value="Đã nhận hàng" selected="@(list[i].Status == "Đã nhận hàng")">Đã nhận hàng</option>
+                                    <option value="Hủy đơn" selected="@(list[i].Status == "Hủy đơn")">Hủy đơn</option>
+                                    <option value="Đã nhập kho" selected="@(list[i].Status == "Đã nhập kho")">Đã nhập kho</option>
+                                </select>
+                            
+                        </td>
+                    </tr>
+                }
+               
             </table>
-
-        </div>
+		</div>
+		</form>
     </nav>
-
-
     <script src="js/sidebar.js"></script>
 </body>
 </html>
