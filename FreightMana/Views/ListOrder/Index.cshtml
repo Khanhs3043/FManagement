@@ -59,14 +59,24 @@
                 </div>
             </div>
         </div>
+        @if (TempData["Message"] != null)
+        {
+            <script>
+                var message = '@Html.Raw(TempData["Message"].ToString())';
+
+                alert(message);
+                
+            </script>
+        }
+
         <div class="main-list" >
             <form class="f" action="" method="get">
                 <input type="text" name="q" placeholder="Nhập từ khóa tìm kiếm...">
                 <input type="submit" value="Tìm kiếm">
             </form>
 		</div> 
-        <form action="~/ListOrder/SaveStatus" method="post">
-			<button class="saveBtn" type="submit" >Lưu</button>
+        <form action="~/ListOrder/SaveStatus" method="post" id="list">
+			<button id="saveBtn" class="saveBtn" type="submit" >Lưu</button>
         <div class="staff-backgr">
             <table id="modal_order">
                 <tr>
@@ -100,8 +110,8 @@
                                 <select id="shippingMethod" required name="orders[@i].Status">
                                     
                                     <option value="Đang giao hàng" selected="@(list[i].Status == "Đang giao hàng")">Đang giao hàng</option>
-                                    <option value="Đã nhận hàng" selected="@(list[i].Status == "Đã nhận hàng")">Đã nhận hàng</option>
-                                    <option value="Hủy đơn" selected="@(list[i].Status == "Hủy đơn")">Hủy đơn</option>
+                                    <option value="Đã hoàn thành" selected="@(list[i].Status == "Đã hoàn thành")">Đã nhận hàng</option>
+                                    <option value="Đã hủy" selected="@(list[i].Status == "Đã hủy")">Hủy đơn</option>
                                     <option value="Đã nhập kho" selected="@(list[i].Status == "Đã nhập kho")">Đã nhập kho</option>
                                 </select>
                             

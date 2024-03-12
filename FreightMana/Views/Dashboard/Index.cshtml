@@ -100,21 +100,18 @@
                         <th style="width: 300px;">Người nhận</th>
                         <th>Tổng phí</th>
                         <th style="width: 600px;">Trạng thái</th>
-                    </tr>     
-                    <tr>
-                        <td>15:00</td>
-                        <td>MI1</td>
-                        <td>Nguyễn Thị Nguyệt</td>
-                        <td>130.000</td>
-                        <td>Giao hàng thành công</td>
                     </tr> 
-                    <tr>
-                        <td>15:00</td>
-                        <td>MI1</td>
-                        <td>Nguyễn Thị Nguyệt</td>
-                        <td>130.000</td>
-                        <td>Đơn hàng đã bị hủy</td>
-                    </tr>                         
+                    @foreach(var i in ViewBag.AllOrders)
+                    {
+                        <tr>
+                            <td>@i.RecordAt.ToString()</td>
+                            <td><span>OD</span>@i.OrderId.ToString("D3")</td>
+                            <td>@i.Name</td>
+                            <td>@(i.Cost + i.Cod)</td>
+                            <td>@i.Status</td>
+                        </tr>
+                    }
+                                       
                 </table>
             </div>
               
@@ -128,18 +125,21 @@
                         <th>Tổng phí</th>
                         <th>Ngày nhận dự kiến</th>
                     </tr>    
-                    <tr>
-                        <td>15:00</td>
-                        <td>MI1</td>
-                        <td>Nguyễn Thị Nguyệt</td>
-                        <td>130.000</td>
-                        <td>Đơn hàng đã bị hủy</td>
-                        <td>Ngày nhận dự kiến</td>
-                    </tr>                              
+                    @foreach (var i in ViewBag.ShippingOrders)
+                    {
+                        <tr>
+                            <td>@i.RecordAt.ToString()</td>
+                            <td><span>OD</span>@i.OrderId.ToString("D3")</td>
+                            <td>@i.Name</td>
+                            <td>@(i.Cost + i.Cod)</td>
+                            <td>@i.Status</td>
+                            <td></td>
+                        </tr>
+                    }
                 </table>
             </div>
               
-            <div id="Page3" class="tabcontent">
+            <div id="Page3" class="tabcontent" >
                 <table>
                     <tr>
                         <th>Thời gian</th> 
@@ -148,7 +148,18 @@
                         <th>Số điện thoại</th>
                         <th>Tổng phí</th>
                         <th>Ngày nhận hàng</th>
-                    </tr>      
+                    </tr>    
+                    @foreach (var i in ViewBag.CompletedOrders)
+                    {
+                        <tr>
+                            <td>@i.RecordAt.ToString()</td>
+                            <td><span>OD</span>@i.OrderId.ToString("D3")</td>
+                            <td>@i.Name</td>
+                            <td>@(i.Cost + i.Cod)</td>
+                            <td>@i.Status</td>
+                            <td></td>
+                        </tr>
+                    }
                 </table>
             </div>
               
@@ -162,6 +173,17 @@
                         <th>Tổng phí</th>
                         <th>Lý do hủy đơn</th>
                     </tr>   
+                    @foreach (var i in ViewBag.CancelOrders)
+                    {
+                        <tr>
+                            <td>@i.RecordAt.ToString()</td>
+                            <td><span>OD</span>@i.OrderId.ToString("D3")</td>
+                            <td>@i.Name</td>
+                            <td>@(i.Cost + i.Cod)</td>
+                            <td>@i.Status</td>
+                            <td></td>
+                        </tr>
+                    }
                 </table>
             </div>
         </div>        

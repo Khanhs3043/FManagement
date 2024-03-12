@@ -33,8 +33,11 @@ namespace FreightMana.Controllers
             for(int i = 0;i< orders.Count; i++)
             {
                 list[i].Status = orders[i].Status;
+                if(list[i].Status == "Đã hủy") list[i].CancelAt = DateTime.Now;
             }
             db.SaveChanges();
+
+            TempData["Message"] = "Lưu thành công!";
             return RedirectToAction("Index");
         }
     }

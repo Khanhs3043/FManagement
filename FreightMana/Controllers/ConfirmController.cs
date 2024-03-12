@@ -32,6 +32,7 @@ namespace FreightMana.Controllers
             Order o = db.Orders.FirstOrDefault(o => o.OrderId == orderId);
             if (o.Status == "Đã nhập kho") o.Status = "Chờ xác nhận";
             else o.Status = "Đã nhập kho";
+            o.ConfirmAt = DateTime.Now;
             db.SaveChanges();
             return RedirectToAction("Index");
         }

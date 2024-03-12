@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 
 namespace FreightMana.Models;
 
@@ -19,6 +20,7 @@ public partial class Order
 
     public string? Note { get; set; }
 
+    [DisplayFormat(DataFormatString = "{0:dd/MM/yy HH:mm}", ApplyFormatInEditMode = true)]
     public DateTime? RecordAt { get; set; }
 
     public int ReceiverId { get; set; }
@@ -30,6 +32,10 @@ public partial class Order
     public string? Status { get; set; }
 
     public int? CusId { get; set; }
+
+    public DateTime? CancelAt { get; set; }
+    public DateTime? CompleteAt { get; set; }
+    public DateTime? ConfirmAt { get; set; }
 
     public virtual CusAccount? Cus { get; set; }
 

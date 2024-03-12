@@ -17,17 +17,84 @@ namespace FreightMana.Controllers
 			ViewBag.TotalOrders = totalOrders;
 
 			// Tính tổng số đơn hàng đã giao
-			int deliveredOrders = db.Orders.Count(o => o.Status == "Đã nhận hàng");
+			int deliveredOrders = db.Orders.Count(o => o.Status == "Đã hoàn thành");
 			ViewBag.DeliveredOrders = deliveredOrders;
 
 			// Tính tổng số đơn hàng đã hủy
-			int cancelledOrders = db.Orders.Count(o => o.Status == "Hủy đơn");
+			int cancelledOrders = db.Orders.Count(o => o.Status == "Đã hủy");
 			ViewBag.CancelledOrders = cancelledOrders;
 
 			// Tính tổng số đơn hàng chưa giao
-			int pendingOrders = db.Orders.Count(o => o.Status != "Đã nhận hàng" && o.Status != "Hủy đơn" && o.Status != "Chờ xác nhận");
+			int pendingOrders = db.Orders.Count(o => o.Status != "Đã hoàn thành" && o.Status != "Đã hủy" && o.Status != "Chờ xác nhận");
 			ViewBag.PendingOrders = pendingOrders;
-			return View();
+
+            // list all
+            var allOrders = db.Orders
+           .Select(o => new
+           {
+               o.Receiver.Name,
+               o.Receiver.Address,
+               o.Receiver.PhoneNumber,
+               o.OrderId,
+               o.Cod,
+               o.Transport.Cost,
+               o.Status,
+               o.RecordAt
+           })
+           .ToList();
+            ViewBag.AllOrders = allOrders;
+
+            // list đơn chưa giao
+            var shippingOrders = db.Orders
+              .Where(o=> o.Status == "Đang giao hàng")
+              .Select(o => new
+              {
+                  o.Receiver.Name,
+                  o.Receiver.Address,
+                  o.Receiver.PhoneNumber,
+                  o.OrderId,
+                  o.Cod,
+                  o.Transport.Cost,
+                  o.Status,
+                  o.RecordAt
+              })
+              .ToList();
+            ViewBag.ShippingOrders = shippingOrders;
+
+            //list đơn hoàn thành
+            var completedOrders = db.Orders
+              .Where(o => o.Status == "Đã hoàn thành")
+              .Select(o => new
+              {
+                  o.Receiver.Name,
+                  o.Receiver.Address,
+                  o.Receiver.PhoneNumber,
+                  o.OrderId,
+                  o.Cod,
+                  o.Transport.Cost,
+                  o.Status,
+                  o.RecordAt
+              })
+              .ToList();
+            ViewBag.CompletedOrders = completedOrders;
+
+            //list đơn đã hủy
+            var cancelOrders = db.Orders
+              .Where(o => o.Status == "Đã hủy")
+              .Select(o => new
+              {
+                  o.Receiver.Name,
+                  o.Receiver.Address,
+                  o.Receiver.PhoneNumber,
+                  o.OrderId,
+                  o.Cod,
+                  o.Transport.Cost,
+                  o.Status,
+                  o.RecordAt
+              })
+              .ToList();
+            ViewBag.CancelOrders = cancelOrders;
+            return View();
         }
     }
 }
