@@ -2,7 +2,7 @@
 
 namespace FreightMana.Controllers
 {
-    public class OurServiceController1cs : Controller
+    public class LoginAdminController : Controller
     {
         public IActionResult Index()
         {

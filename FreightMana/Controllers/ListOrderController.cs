@@ -37,8 +37,12 @@ namespace FreightMana.Controllers
             }
             db.SaveChanges();
 
-            TempData["Message"] = "Lưu thành công!";
+            
             return RedirectToAction("Index");
+        }
+        public ActionResult ShowAlert(string message)
+        {
+            return PartialView("_AlertModal", message);
         }
     }
 }

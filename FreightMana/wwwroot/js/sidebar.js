@@ -45,7 +45,15 @@ window.onclick = function(event) {
 
 function confirmLogout() {
     if (confirm("Bạn có chắc muốn đăng xuất không?")) {
-        window.location.href = "login_admin.html";
+        window.location.href = '/LoginAdmin'; 
     }
     return false;
 }
+function confirmSave() {
+
+    alert('Lưu thành công');
+        //window.location.href = '/ListOrder/SaveStatus';
+   
+    return false;
+}
+

@@ -1,4 +1,6 @@
-﻿<!DOCTYPE html>
+﻿@model List<Order>
+
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -57,17 +59,88 @@
                 </div>
             </div>
         </div>
+        
+
+        <script>
+            function uploadFile() {
+                var fileInput = document.getElementById('customFileInput');
+                var file = fileInput.files[0];
+
+                if (file) {
+                    document.getElementById('mform').submit();
+                    alert('Upload file thành công!');
+                } else {
+                    alert('Vui lòng chọn một file Excel để tải lên!');
+                }
+            }
+           
+                function displayFileName(input) {
+                    var selectedFileName = document.getElementById('selectedFileName');
+                    if (input.files.length > 0) {
+                        selectedFileName.textContent = input.files[0].name;
+                    } else {
+                        selectedFileName.textContent = '';
+                    }
+
+                }
+        </script>
         <div class="upload">
-            <div class="upload-excel">
-                <form action="" method="get">
-                    <input type="submit" value="Chọn file Excel">
-                </form>
-            </div>
+           
+            <style>
+                #customFileInput {
+                    font-size:14px;
+                    width: 0.1px;
+                    height: 0.1px;
+                    opacity: 0;
+                    overflow: hidden;
+                    position: absolute;
+                    z-index: -1;
+                }
+
+                #customFileLabel {
+                    box-shadow: 2px 2px 2px grey;
+                    font-size: 14px;
+                    display: inline-block;
+                    padding: 8px 12px;
+                    background-color: #4ba3f0;
+                    color: #fff;
+                    border-radius: 5px;
+                    cursor: pointer;
+                }
+
+                #selectedFileName{
+                    width:200px;
+                    margin-left:15px;
+                    margin-top:10px;
+                    overflow:hidden;
+                }
+            </style>
+            @{
+                if (ViewBag.Noti != null)
+                {
+                    <script>
+                        alert('@ViewBag.Noti');
+                    </script>
+                }
+                if (ViewBag.err != null)
+                {
+                    <script>
+                        alert('@ViewBag.err');
+                    </script>
+                }
+            }
+            <form action="/excel/upload" method="post" enctype="multipart/form-data" id="mform">
+            <input type="file" id="customFileInput" onchange="displayFileName(this)" accept=".xlsx, .xls" name="excelFile">
+                <label for="customFileInput" id="customFileLabel">Chọn file Excel</label>
+                <span id="selectedFileName"></span>
+
+             
             <div class="upload-file">
-                <form action="" method="get">
-                    <input type="submit" value="Tải file mẫu">
-                </form>
-            </div>
+                
+                    <input type="button" value="Tải file mẫu" onclick="uploadFile()">
+				
+			</div></form>
+            
         </div>
         <div class="goods-backgr">
             <table>
@@ -78,13 +151,21 @@
                     <th>COD</th>
                     <th></th>
                 </tr>
-                <tr>
-                    <td>Nguyễn Thị Nguyệt</td>
-                    <td>Thôn 6, xã Quảng Giao, huyện Quảng Xương, tỉnh Thanh Hóa</td>
-                    <td>100.000</td>
-                    <td>12.000</td>
-                    <td></td>
-                </tr>
+                @if (Model != null)
+                {
+                    foreach (var order in Model)
+                    {
+                        <tr>
+                            <td>@order.Receiver.Name</td>
+                            <td>@order.Receiver.Address</td>
+                            <td>@order.TransportFee</td>
+                            <td>@order.Cod</td>
+                            <td></td>
+                        </tr>
+                    }
+                }
+           
+                
                 <tr>
                     <td>Nguyễn Thị Xuân Khánh</td>
                     <td>Thôn Việt Trung, xã Quảng Giao, huyện Quảng Xương, tỉnh Thanh Hóa</td>

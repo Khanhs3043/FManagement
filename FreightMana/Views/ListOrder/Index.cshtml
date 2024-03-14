@@ -1,4 +1,5 @@
-﻿<!DOCTYPE html>
+﻿
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -59,15 +60,6 @@
                 </div>
             </div>
         </div>
-        @if (TempData["Message"] != null)
-        {
-            <script>
-                var message = '@Html.Raw(TempData["Message"].ToString())';
-
-                alert(message);
-                
-            </script>
-        }
 
         <div class="main-list" >
             <form class="f" action="" method="get">
@@ -76,7 +68,10 @@
             </form>
 		</div> 
         <form action="~/ListOrder/SaveStatus" method="post" id="list">
-			<button id="saveBtn" class="saveBtn" type="submit" >Lưu</button>
+            <button id="saveBtn" class="saveBtn" type="submit" onclick="confirmSave()">Lưu</button>
+ 
+
+           
         <div class="staff-backgr">
             <table id="modal_order">
                 <tr>

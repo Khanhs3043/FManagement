@@ -377,9 +377,6 @@ D:\Khanh3043\FManagement\FreightMana\bin\Debug\net8.0\runtimes\win-arm\native\Mi
 D:\Khanh3043\FManagement\FreightMana\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
 D:\Khanh3043\FManagement\FreightMana\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
 D:\Khanh3043\FManagement\FreightMana\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-D:\Khanh3043\FManagement\FreightMana\bin\Debug\net8.0\runtimes\win\lib\net6.0\Microsoft.Win32.SystemEvents.dll
-D:\Khanh3043\FManagement\FreightMana\bin\Debug\net8.0\runtimes\unix\lib\net6.0\System.Drawing.Common.dll
-D:\Khanh3043\FManagement\FreightMana\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Drawing.Common.dll
 D:\Khanh3043\FManagement\FreightMana\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
 D:\Khanh3043\FManagement\FreightMana\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Security.Cryptography.ProtectedData.dll
 D:\Khanh3043\FManagement\FreightMana\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Windows.Extensions.dll
@@ -408,3 +405,9 @@ D:\Khanh3043\FManagement\FreightMana\obj\Debug\net8.0\refint\FreightMana.dll
 D:\Khanh3043\FManagement\FreightMana\obj\Debug\net8.0\FreightMana.pdb
 D:\Khanh3043\FManagement\FreightMana\obj\Debug\net8.0\FreightMana.genruntimeconfig.cache
 D:\Khanh3043\FManagement\FreightMana\obj\Debug\net8.0\ref\FreightMana.dll
+D:\Khanh3043\FManagement\FreightMana\bin\Debug\net8.0\EPPlus.dll
+D:\Khanh3043\FManagement\FreightMana\bin\Debug\net8.0\EPPlus.Interfaces.dll
+D:\Khanh3043\FManagement\FreightMana\bin\Debug\net8.0\EPPlus.System.Drawing.dll
+D:\Khanh3043\FManagement\FreightMana\bin\Debug\net8.0\Microsoft.IO.RecyclableMemoryStream.dll
+D:\Khanh3043\FManagement\FreightMana\bin\Debug\net8.0\runtimes\win\lib\net7.0\Microsoft.Win32.SystemEvents.dll
+D:\Khanh3043\FManagement\FreightMana\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
