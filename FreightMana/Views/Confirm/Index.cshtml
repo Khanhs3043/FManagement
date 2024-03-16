@@ -1,4 +1,5 @@
-﻿<!DOCTYPE html>
+﻿@model List<Order>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -63,8 +64,12 @@
                 <input type="text" name="q" placeholder="Nhập từ khóa tìm kiếm...">
                 <input type="submit" value="Tìm kiếm">
             </form>
+           
         </div>
         <div class="staff-backgr">
+            <form method="post" action="@Url.Action("Confirm", "Confirm")">
+                <button type="submit" >Lưu</button>
+            
             <table id="modal_order">
                 <tr>
                     <th>Mã đơn hàng</th>
@@ -75,32 +80,43 @@
                     <th>Tổng tiền</th>
                     <th></th>
                 </tr>
-                @foreach (var i in ViewBag.Orders)
+                @{
+                    var list = Model;
+                }
+                @for(int i =0;i<list.Count; i++)
                 {
                     <tr>
-                        <td><span>OD</span>@i.OrderId.ToString("D3")</td>
-                        <td>@i.Name</td>
-                        <td>@i.PhoneNumber</td>
-                        <td>@i.Address</td>
-                        <td>@i.Cost</td>
-                        <td>@(i.Cost + i.Cod)</td>
+                        <td><span>OD</span>@list[i].OrderId.ToString("D3")</td>
+                        <td>@list[i].Receiver.Name</td>
+                        <td>@list[i].Receiver.PhoneNumber</td>
+                        <td>@list[i].Receiver.Address</td>
+                        <td>@list[i].Transport.Cost</td>
+                        <td>@(list[i].Transport.Cost + list[i].Cod)</td>
 
                         <td>
                             @{
-                                var textButton = @i.Status == "Chờ xác nhận" ? "Xác nhận" : "Đã nhập kho";
-
+                                var textButton = list[i].Status == "Chờ xác nhận" ? "Xác nhận" : "Đã nhập kho";
                             }
-
-                            <form action="~/Confirm/Confirm" method="post">
-
-                                <button type="submit" value=@i.OrderId name="orderId">@textButton</button>
-                            </form>
+                            <script>
+                                function changeStatus(btn) {
+                                        var hiddenInput = btn.nextElementSibling;
+                                    if (btn.innerText === "Xác nhận") {
+                                        btn.innerText = "Đã nhập kho"; 
+                                        hiddenInput.value = "Đã nhập kho";
+                                    } else {
+                                        btn.innerText = "Xác nhận";
+                                        hiddenInput.value = "Chờ xác nhận";
+                                    }
+                                }
+                            </script>
+                                <button type="button" onclick="changeStatus(this)">@textButton</button>
+                                <input type="hidden" name="statusList[@i]" value="Chờ xác nhận">
                             </td>
                     </tr>
                 }
                 
             </table>
-
+            </form>
         </div>
     </nav>
 

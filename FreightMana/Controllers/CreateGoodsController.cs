@@ -21,7 +21,7 @@ namespace FreightMana.Controllers
             return View( listOrder);
         }
         [HttpPost("upload")]
-        public IActionResult UploadExcelFile(IFormFile excelFile)
+        public IActionResult ReadExcelFile(IFormFile excelFile)
         {
             //List <Order> listOrder = new List<Order>();
             ExcelPackage.LicenseContext = LicenseContext.NonCommercial;
@@ -69,9 +69,9 @@ namespace FreightMana.Controllers
                                     Address = senderAddress,
                                 };
                                 
-                                db.Senders.RemoveRange(db.Senders.Where(r => r.Name == sender.Name));
+                               // db.Senders.RemoveRange(db.Senders.Where(r => r.Name == sender.Name));
                                 db.Senders.Add(sender);
-                                 //db.SaveChanges();
+                                db.SaveChanges();
                                 //Thêm người nhận
                                 Receiver receiver = new Receiver()
                                 {
@@ -101,20 +101,8 @@ namespace FreightMana.Controllers
                                     Status = "Chờ xác nhận"
                                 };
                                 //System.Diagnostics.Debug.WriteLine(order.SenderId);
-                                db.Orders.RemoveRange(db.Orders.Where(o => o.Product == order.Product));                              
-                                //db.Orders.Add(order);
-                                // {
-                                //    Product = productName,
-                                //    NumberOfProduct = numOfProduct,
-                                //     TransportId = transportId,
-                                //    Cod = cod,
-                                //   TransportFee = fee,
-                                //   Note = note,
-                                //   SenderId = sender.Id,
-                                //   ReceiverId = receiver.Id,
-                                //   RecordAt = DateTime.Now,
-                                
-                                // });
+                                //db.Orders.RemoveRange(db.Orders.Where(o => o.Product == order.Product));                              
+                                db.Orders.Add(order);
                                 db.SaveChanges();
                                 listOrder.Add(order);
                             }
@@ -126,7 +114,7 @@ namespace FreightMana.Controllers
                         }
                     }
                 }
-                //Lấy danh sách gồm các trường dữ liệu cần thiết để hiển thị ra view
+              
             }
            
             return RedirectToAction("Index");

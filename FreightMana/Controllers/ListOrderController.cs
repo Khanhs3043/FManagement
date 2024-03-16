@@ -34,6 +34,8 @@ namespace FreightMana.Controllers
             {
                 list[i].Status = orders[i].Status;
                 if(list[i].Status == "Đã hủy") list[i].CancelAt = DateTime.Now;
+                if (list[i].Status == "Đã hoàn thành") list[i].CompleteAt = DateTime.Now;
+                if (list[i].Status == "Đã nhập kho") list[i].ConfirmAt = DateTime.Now;
             }
             db.SaveChanges();
 
