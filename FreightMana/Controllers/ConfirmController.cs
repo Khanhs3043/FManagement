@@ -30,6 +30,23 @@ namespace FreightMana.Controllers
             db.SaveChanges();
             return RedirectToAction("Index");
         }
+        [HttpPost]
+        public IActionResult Search(string keyword)
+        {
+            System.Diagnostics.Debug.WriteLine("searching");
+            var orders = db.Orders.Where(o =>
+                (o.OrderId.ToString().Contains(keyword) ||
+                o.Receiver.Name.Contains(keyword) ||
+                o.Receiver.PhoneNumber.Contains(keyword) ||
+                o.Receiver.Address.Contains(keyword) ||
+                o.Status.Contains(keyword)) &&
+                o.Status == "Chờ xác nhận"
+            )
+                .Include(o => o.Receiver)
+                .Include(o => o.Transport)
+                .ToList();
 
+            return View("Index", orders);
+        }
     }
 }

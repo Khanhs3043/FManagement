@@ -8,5 +8,10 @@ namespace FreightMana.Controllers
         {
             return View();
         }
+        public IActionResult createShift( )
+        {
+
+            return View();
+        }
     }
 }
