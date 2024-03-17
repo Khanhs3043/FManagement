@@ -1,5 +1,6 @@
 ﻿using FreightMana.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace FreightMana.Controllers
 {
@@ -8,35 +9,44 @@ namespace FreightMana.Controllers
         ManaFreightmentContext db = new ManaFreightmentContext();
         public IActionResult Index()
         {
-            var orders = db.Orders
-        .Select(o => new
-        {
-            o.Receiver.Name,
-            o.Receiver.Address,
-            o.Receiver.PhoneNumber,
-            o.OrderId,
-            o.Cod,
-            o.Transport.Cost,
-            o.Status
+            List<Order> orders = new List<Order>() { };
+            orders = db.Orders
+            .Where(o => o.Status == "Chờ xác nhận")
+            .Include(o => o.Receiver)
+            .Include(o => o.Transport)
+            .ToList();
             
-        })
-        .ToList();
-           // System.Diagnostics.Debug.WriteLine(orders[0].PhoneNumber);
-           
-            ViewBag.Orders = orders == null ? [] :orders;
-            return View();
+            return View(orders);
         }
         [HttpPost]
-        public IActionResult Confirm(int orderId)
+        public IActionResult Confirm(List<String> statusList)
         {
-            Order o = db.Orders.FirstOrDefault(o => o.OrderId == orderId);
-            if (o.Status == "Đã nhập kho") o.Status = "Chờ xác nhận";
-            else o.Status = "Đã nhập kho";
-            o.ConfirmAt = DateTime.Now;
+            List<Order> list = db.Orders.Where(o => o.Status == "Chờ xác nhận").ToList();
+            for (int i = 0; i < list.Count;i++)
+            {
+                list[i].Status = statusList[i];
+                list[i].ConfirmAt = DateTime.Now;
+            }
             db.SaveChanges();
             return RedirectToAction("Index");
         }
+        [HttpPost]
+        public IActionResult Search(string keyword)
+        {
+            System.Diagnostics.Debug.WriteLine("searching");
+            var orders = db.Orders.Where(o =>
+                (o.OrderId.ToString().Contains(keyword) ||
+                o.Receiver.Name.Contains(keyword) ||
+                o.Receiver.PhoneNumber.Contains(keyword) ||
+                o.Receiver.Address.Contains(keyword) ||
+                o.Status.Contains(keyword)) &&
+                o.Status == "Chờ xác nhận"
+            )
+                .Include(o => o.Receiver)
+                .Include(o => o.Transport)
+                .ToList();
 
-        
+            return View("Index", orders);
+        }
     }
 }

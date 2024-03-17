@@ -1,4 +1,4 @@
-﻿
+﻿@model List<Order>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -6,16 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>LIST ORDER</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    <link rel="icon" href="img/fevicon.png" type="image/x-icon">
-    <link rel="stylesheet" href="css/base.css">
-    <link rel="stylesheet" href="css/Admin/sidebar.css">
-    <link rel="stylesheet" href="css/Admin/list_order.css">
+    <link rel="icon" href="~/img/fevicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="~/css/base.css">
+    <link rel="stylesheet" href="~/css/Admin/sidebar.css">
+    <link rel="stylesheet" href="~/css/Admin/list_order.css">
 </head>
 <body class="body">
     <!-- sidebar -->
     <nav class="sidebar">
         <div class="logo">
-            <a href=""><img src="img/logo.png" alt=""></a>
+            <a href=""><img src="~/img/logo.png" alt=""></a>
         </div>
         <ul id="sidebar_menu" class="metismenu">
             <li>
@@ -48,7 +48,7 @@
         <div class="nav-bar">
             <div class="infor">
                 <div class="avt">
-                    <a href=""><img src="img/avt.jpg" alt=""></a>
+                    <a href=""><img src="~/img/avt.jpg" alt=""></a>
                 </div>
                 <div class="name">
                     <span>Nguyệt</span>
@@ -62,8 +62,8 @@
         </div>
 
         <div class="main-list" >
-            <form class="f" action="" method="get">
-                <input type="text" name="q" placeholder="Nhập từ khóa tìm kiếm...">
+            <form class="f" action="/ListOrder/Search" method="post">
+                <input type="text" name="keyword" placeholder="Nhập từ khóa tìm kiếm...">
                 <input type="submit" value="Tìm kiếm">
             </form>
 		</div> 
@@ -84,17 +84,17 @@
                     <th>Trạng thái</th>
                 </tr>
                 @{
-                    var list = ViewBag.Orders;
+                    var list = Model;
                 }
                 @for (int i = 0; i < list.Count ; i++)
                 {
                     <tr>
-                        <td><span>OD</span>@list[i].OrderId.ToString("D3")</td>
-                        <td>@list[i].Name</td>
-                        <td>@list[i].PhoneNumber</td>
-                        <td>@list[i].Address</td>
-                        <td>@list[i].Cost</td>
-                        <td>@(list[i].Cost + list[i].Cod)</td>
+                            <td>@list[i].OrderId</td>
+                            <td>@list[i].Receiver.Name</td>
+                            <td>@list[i].Receiver.PhoneNumber</td>
+                            <td>@list[i].Receiver.Address</td>
+                            <td>@list[i].Transport.Cost</td>
+                            <td>@(list[i].Transport.Cost + list[i].Cod)</td>
 
                         <td>
                             @{
@@ -118,6 +118,6 @@
 		</div>
 		</form>
     </nav>
-    <script src="js/sidebar.js"></script>
+    <script src="~/js/sidebar.js"></script>
 </body>
 </html>

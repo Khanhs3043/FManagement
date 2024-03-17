@@ -1,5 +1,6 @@
 ﻿using FreightMana.Models;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 
 namespace FreightMana.Controllers
 {
@@ -10,21 +11,11 @@ namespace FreightMana.Controllers
         {
             var orders = db.Orders
            .Where(o => o.Status != "Chờ xác nhận")
-           .Select(o => new
-           {
-               o.Receiver.Name,
-               o.Receiver.Address,
-               o.Receiver.PhoneNumber,
-               o.OrderId,
-               o.Cod,
-               o.Transport.Cost,
-               o.Status
-           })
+           .Include(o => o.Receiver)
+           .Include(o => o.Transport)
            .ToList();
             // System.Diagnostics.Debug.WriteLine(orders[0].PhoneNumber);
-
-            ViewBag.Orders = orders == null ? [] : orders;
-            return View();
+            return View(orders);
         }
         public ActionResult SaveStatus(List<Order> orders)
         {
@@ -34,15 +25,32 @@ namespace FreightMana.Controllers
             {
                 list[i].Status = orders[i].Status;
                 if(list[i].Status == "Đã hủy") list[i].CancelAt = DateTime.Now;
+                if (list[i].Status == "Đã hoàn thành") list[i].CompleteAt = DateTime.Now;
+                if (list[i].Status == "Đã nhập kho") list[i].ConfirmAt = DateTime.Now;
             }
             db.SaveChanges();
 
             
             return RedirectToAction("Index");
         }
-        public ActionResult ShowAlert(string message)
+    
+        [HttpPost]
+        public IActionResult Search(string keyword)
         {
-            return PartialView("_AlertModal", message);
+            System.Diagnostics.Debug.WriteLine("searching");
+            var orders = db.Orders.Where(o =>
+                (o.OrderId.ToString().Contains(keyword) ||
+                o.Receiver.Name.Contains(keyword) ||
+                o.Receiver.PhoneNumber.Contains(keyword) ||
+                o.Receiver.Address.Contains(keyword) ||
+                o.Status.Contains(keyword)) &&
+                o.Status != "Chờ xác nhận"
+            )
+                .Include(o => o.Receiver)
+                .Include(o => o.Transport)
+                .ToList();
+
+            return View("Index", orders);
         }
     }
 }
