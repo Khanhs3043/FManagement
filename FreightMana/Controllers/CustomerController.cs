@@ -36,8 +36,21 @@ namespace FreightMana.Controllers
                 // Truyền tên người dùng sang view để hiển thị
                 ViewBag.UserName = userName;
             }
-            var ConfirmAt = db.Orders.Select(o=>o.OrderId);
-            ViewBag.ConfirmAt = ConfirmAt;
+            if (userId.HasValue)
+            {
+                var userOrders = db.Orders
+                    .Where(o => o.CusId == userId.Value)
+                    .Select(o => new
+                    {
+                        o.Receiver.Name, //
+                        o.OrderId,//
+                        o.Cod,//
+                        o.Status,//
+                        o.ConfirmAt//
+                    })
+                    .ToList();
+                ViewBag.UserOrders = userOrders;
+            }
 
             return View();
         }
