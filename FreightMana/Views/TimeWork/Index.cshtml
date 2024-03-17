@@ -1,4 +1,5 @@
-﻿<!DOCTYPE html>
+﻿@model List<Shift>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -61,52 +62,41 @@
         <div class="creat_time">
             <span class="create_today">Tạo ca lấy hôm nay</span>
             <hr>
+            <form action="/TimeWork/CreateShift" method="post">
             <div class="infor_time">
                 <div class="shift shift_name">
-                    <label>Họ tên</label>
-                    <form action="">
-                        <select name="size" id="size3" required>
-                            <option value=""></option>
-                            <option value=""></option>
-                            <option value=""></option>
+                    <label>Nhân viên</label>
+                
+                        <select name="staffId" id="size3" required>
+                            @foreach(var staff in ViewBag.staffs)
+                            {
+                                <option value="@staff.Id">@(staff.Id.ToString() + " - " + staff.Name + " (" + staff.Email + " - " + staff.PhoneNumber + ") ")</option>
+                            }
                         </select>
-                    </form>
+             
                 </div>
-                <div class="shift shift_num">
-                    <label>Số điện thoại</label>
-                    <form action="">
-                        <select name="size" id="size3" required>
-                            <option value=""></option>
-                            <option value=""></option>
-                            <option value=""></option>
-                        </select>
-                    </form>
-                </div>
-                <div class="shift shift_email">
-                    <label>Email</label>
-                    <form action="">
-                        <select name="size" id="size3" required>
-                            <option value=""></option>
-                            <option value=""></option>
-                            <option value=""></option>
-                        </select>
-                    </form>
-                </div>
+               
                 <div class="shift shift_shift">
                     <label>Ca</label>
-                    <form action="">
-                        <select name="size" id="size3" required>
-                            <option value="">Sáng</option>
-                            <option value="">Chiều</option>
+                   
+                        <select name="timeRange">
+                            <option value="morning">Buổi sáng (7:00 - 11:00)</option>
+                            <option value="afternoon">Buổi chiều (12:00 - 17:00)</option>
+                            <option value="evening">Buổi tối (18:00 - 22:00)</option>
                         </select>
-                    </form>
+                 
                 </div>
                 <div class="create_shift">
-                    <form action="" method="get">
                         <input type="submit" value="Tạo ca">
-                    </form>
-                </div>
-            </div>
+                            </div>
+				</div>
+                @if (TempData["ErrorMessage"] != null)
+                {
+                    <span style="color:red">@TempData["ErrorMessage"]</span>
+                }
+			</form>
+            
+           
         </div>
         <div class="list_time">
             <span class="create_today">Danh sách ca lấy</span>
@@ -120,13 +110,23 @@
                     <th>Ca</th>
                     <th> </th>
                 </tr>
-                <tr>
-                    <td>19h00</td>
-                    <td>19h00</td>
-                    <td>19h00</td>
-                    <td>19h00</td>
-                    <td>19h00</td>
-                </tr>
+				@if (Model.Count != 0){
+                    foreach (var shift in Model)
+                    {
+                        <tr>
+                            <td>@shift.Id</td>
+                            <td>@shift.Employee.Name</td>
+                            <td>@shift.Employee.PhoneNumber</td>
+                            <td>@shift.Day.ToString()</td>
+                            <td>@(shift.TimeStart.ToString() + " - " + shift.TimeEnd.ToString())</td>
+                            <td style="text-align: center">
+                                <form action="/TimeWork/DeleteShift" method="post">
+									<button type="submit" name="id" value=@shift.Id><i class="fa-solid fa-trash-can"></i></button>
+								</form>
+                            </td>
+                        </tr>
+                    }
+				}
             </table>
         </div>
         <script src="js/sidebar.js"></script>
