@@ -68,7 +68,6 @@
 
                 if (file) {
                     document.getElementById('mform').submit();
-                    alert('Upload file thành công!');
                 } else {
                     alert('Vui lòng chọn một file Excel để tải lên!');
                 }
@@ -122,10 +121,11 @@
                         alert('@ViewBag.Noti');
                     </script>
                 }
-                if (ViewBag.err != null)
+                if (TempData["message"] != null)
                 {
+                
                     <script>
-                        alert('@ViewBag.err');
+                        alert('@Html.Raw(TempData["message"])');
                     </script>
                 }
             }

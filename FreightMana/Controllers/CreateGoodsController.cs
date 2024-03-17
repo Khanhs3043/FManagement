@@ -105,10 +105,11 @@ namespace FreightMana.Controllers
                                 db.Orders.Add(order);
                                 db.SaveChanges();
                                 listOrder.Add(order);
+                                TempData["message"] = "Thêm đơn thành công";
                             }
                             catch (Exception e)
                             {
-                                ViewBag.err = e.ToString();
+                                TempData["message"] = e.ToString();
                                 return RedirectToAction("Index");
                             }
                         }
