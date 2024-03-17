@@ -1,7 +1,6 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< HEAD
     "E:\\Mew\\Code\\C#\\FManagement\\FreightMana\\FreightMana.csproj": {}
   },
   "projects": {
@@ -13,30 +12,13 @@
         "projectPath": "E:\\Mew\\Code\\C#\\FManagement\\FreightMana\\FreightMana.csproj",
         "packagesPath": "C:\\Users\\HieuDoan\\.nuget\\packages\\",
         "outputPath": "E:\\Mew\\Code\\C#\\FManagement\\FreightMana\\obj\\",
-=======
-    "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\FreightMana.csproj": {}
-  },
-  "projects": {
-    "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\FreightMana.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\FreightMana.csproj",
-        "projectName": "FreightMana",
-        "projectPath": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\FreightMana.csproj",
-        "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-        "outputPath": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\obj\\",
->>>>>>> b5a0f39b07b9ce3570bb2cdf90aa34e9f8a1973f
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-<<<<<<< HEAD
           "C:\\Users\\HieuDoan\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-=======
-          "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
->>>>>>> b5a0f39b07b9ce3570bb2cdf90aa34e9f8a1973f
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -58,6 +40,11 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
@@ -102,7 +89,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.100/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.200/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

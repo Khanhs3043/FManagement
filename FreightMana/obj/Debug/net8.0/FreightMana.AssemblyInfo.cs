@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FreightMana")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1dcc43075dc2d8311991dacaace04e35f21bad0f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7b45cafb3d16861f999a4dc0f2aa765afb1dc380")]
 [assembly: System.Reflection.AssemblyProductAttribute("FreightMana")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FreightMana")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
