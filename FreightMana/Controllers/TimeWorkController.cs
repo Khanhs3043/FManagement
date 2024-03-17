@@ -41,7 +41,7 @@ namespace FreightMana.Controllers
 
             if (shiftConflict)
             {
-                TempData["ErrorMessage"] = "Nhân viên đã có ca làm việc trong ngày này.";
+                TempData["ErrorMessage"] = "Trùng ca làm trong ngày!";
                 return RedirectToAction("Index");
             }
 

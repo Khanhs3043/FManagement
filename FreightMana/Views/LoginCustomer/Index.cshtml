@@ -4,21 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="icon" href="img/fevicon.png" type="image/x-icon">
+    <link rel="icon" href="~/img/fevicon.png" type="image/x-icon">
     <title>Login</title>
-    <link rel="stylesheet" href="css/base.css">
-    <link rel="stylesheet" href="css/Customer/login_customer.css">
+    <link rel="stylesheet" href="~/css/base.css">
+    <link rel="stylesheet" href="~/css/Customer/login_customer.css">
 </head>
 <body>
     <div class="container">
         <input type="checkbox" id="check">
         <div class="login form">
             <header>Đăng nhập</header>
-            <form>
+            <form action="~/LoginCustomer/Login" method="post">
                 <span class="details">Tài khoản</span>
-                <input type="text" placeholder="Nhập số điện thoại/email" required>
+                <input type="text" name="loginIdentifier" placeholder="Nhập số điện thoại/email" required>
                 <span class="details">Mật khẩu</span>
-                <input type="password" placeholder="Nhập mật khẩu" required>
+                <input type="password" name="Password" placeholder="Nhập mật khẩu" required>
                 <a href="">Quên mật khẩu</a>
                 <div class="button">
                     <input type="submit" class="button" value="Đăng nhập">
@@ -36,31 +36,42 @@
             <div class="container">
                 <header>Đăng ký</header>
                 <div class="content">
-                    <form action="">
+                    <form action="~/LoginCustomer/SignUp" method="post">
+                        @if (!ViewData.ModelState.IsValid)
+                        {
+                            <div class="error-message">
+                                <ul>
+                                    @foreach (var error in ViewData.ModelState.Values.SelectMany(v => v.Errors))
+                                    {
+                                        <li>@error.ErrorMessage</li>
+                                    }
+                                </ul>
+                            </div>
+                        }
                         <div class="user-details">
                             <div class="input-box">
                                 <span class="details">Họ và tên</span>
-                                <input type="text" placeholder="Nhập họ tên" required>
+                                <input type="text" name="Name" placeholder="Nhập họ tên" required>
                             </div>
                             <div class="input-box">
                                 <span class="details">Tên người dùng</span>
-                                <input type="text" placeholder="Nhập tên người dùng" required>
+                                <input type="text" name="Username" placeholder="Nhập tên người dùng" required>
                             </div>
                             <div class="input-box">
                                 <span class="details">Email</span>
-                                <input type="text" placeholder="Nhập email" required>
+                                <input type="email" name="Email" placeholder="Nhập email" required>
                             </div>
                             <div class="input-box">
                                 <span class="details">Số điện thoại</span>
-                                <input type="text" placeholder="Nhập số điện thoại" required>
+                                <input type="text" name="PhoneNumber" placeholder="Nhập số điện thoại" required>
                             </div>
                             <div class="input-box">
                                 <span class="details">Mật khẩu</span>
-                                <input type="text" placeholder="Nhập mật khẩu" required>
+                                <input type="password" name="Password" placeholder="Nhập mật khẩu" required>
                             </div>
                             <div class="input-box">
                                 <span class="details">Xác nhận mật khẩu</span>
-                                <input type="text" placeholder="Nhập lại mật khẩu" required>
+                                <input type="password" name="Confirm_password" placeholder="Nhập lại mật khẩu" required>
                             </div>
                         </div>
                         <div class="button">

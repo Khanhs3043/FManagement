@@ -31,6 +31,9 @@ namespace FreightMana.Migrations
 
                     SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"));
 
+                    b.Property<string>("Email")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("Name")
                         .HasMaxLength(50)
                         .HasColumnType("nvarchar(50)")
@@ -41,6 +44,9 @@ namespace FreightMana.Migrations
                         .HasColumnType("nvarchar(50)")
                         .HasColumnName("password");
 
+                    b.Property<string>("PhoneNumber")
+                        .HasColumnType("nvarchar(max)");
+
                     b.Property<string>("Username")
                         .HasMaxLength(50)
                         .HasColumnType("nvarchar(50)")
@@ -49,7 +55,7 @@ namespace FreightMana.Migrations
                     b.HasKey("Id")
                         .HasName("PK_accounts");
 
-                    b.ToTable("CusAccounts", (string)null);
+                    b.ToTable("CusAccounts");
                 });
 
             modelBuilder.Entity("FreightMana.Models.Order", b =>
@@ -132,7 +138,7 @@ namespace FreightMana.Migrations
 
                     b.HasIndex("WarehouseId");
 
-                    b.ToTable("Orders", (string)null);
+                    b.ToTable("Orders");
                 });
 
             modelBuilder.Entity("FreightMana.Models.Receiver", b =>
@@ -161,7 +167,7 @@ namespace FreightMana.Migrations
                     b.HasKey("Id")
                         .HasName("PK_receivers");
 
-                    b.ToTable("Receivers", (string)null);
+                    b.ToTable("Receivers");
                 });
 
             modelBuilder.Entity("FreightMana.Models.Sender", b =>
@@ -190,7 +196,7 @@ namespace FreightMana.Migrations
                     b.HasKey("Id")
                         .HasName("PK_senders");
 
-                    b.ToTable("Senders", (string)null);
+                    b.ToTable("Senders");
                 });
 
             modelBuilder.Entity("FreightMana.Models.Shift", b =>
@@ -223,7 +229,7 @@ namespace FreightMana.Migrations
 
                     b.HasIndex("EmployeeId");
 
-                    b.ToTable("Shifts", (string)null);
+                    b.ToTable("Shifts");
                 });
 
             modelBuilder.Entity("FreightMana.Models.Staff", b =>
@@ -263,7 +269,7 @@ namespace FreightMana.Migrations
 
                     b.HasIndex("WarehouseId");
 
-                    b.ToTable("Staffs", (string)null);
+                    b.ToTable("Staffs");
                 });
 
             modelBuilder.Entity("FreightMana.Models.Transport", b =>
@@ -292,7 +298,7 @@ namespace FreightMana.Migrations
                     b.HasKey("Id")
                         .HasName("PK_transports");
 
-                    b.ToTable("Transports", (string)null);
+                    b.ToTable("Transports");
                 });
 
             modelBuilder.Entity("FreightMana.Models.Warehouse", b =>
@@ -321,7 +327,7 @@ namespace FreightMana.Migrations
                     b.HasKey("Id")
                         .HasName("PK_warehouses");
 
-                    b.ToTable("Warehouses", (string)null);
+                    b.ToTable("Warehouses");
                 });
 
             modelBuilder.Entity("FreightMana.Models.WarehouseAccount", b =>
@@ -353,7 +359,7 @@ namespace FreightMana.Migrations
 
                     b.HasIndex("WarehouseId");
 
-                    b.ToTable("WarehouseAccounts", (string)null);
+                    b.ToTable("WarehouseAccounts");
                 });
 
             modelBuilder.Entity("FreightMana.Models.Order", b =>

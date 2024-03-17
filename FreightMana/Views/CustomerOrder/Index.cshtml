@@ -5,23 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CREATE ORDER</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
-    <link rel="icon" href="img/fevicon.png" type="image/x-icon">
-    <link rel="stylesheet" href="css/base.css">
-    <link rel="stylesheet" href="css/Admin/sidebar.css">
-    <link rel="stylesheet" href="css/Admin/create_order.css">
+    <link rel="icon" href="~/img/fevicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="~/css/base.css">
+    <link rel="stylesheet" href="~/css/Admin/sidebar.css">
+    <link rel="stylesheet" href="~/css/Admin/create_order.css">
 </head>
 <body class="body" style="display: flex;">
     <!-- sidebar -->
     <nav class="sidebar">
         <div class="logo">
-            <a href=""><img src="img/logo.png" alt=""></a>
+            <a href=""><img src="~/img/logo.png" alt=""></a>
         </div>
         <ul id="sidebar_menu" class="metismenu">
             <li>
-                <a href="Customer.html"><span><i class="fa-solid fa-house"></i>Thống kê</span></a>
+                <a href="/Customer"><span><i class="fa-solid fa-house"></i>Thống kê</span></a>
             </li>
             <li>
-                <a href="Customer_order.html"><span><i class="fa-regular fa-folder"></i>Tạo đơn</span></a>
+                <a href="/CustomerOrder"><span><i class="fa-regular fa-folder"></i>Tạo đơn</span></a>
             </li>
         </ul>
     </nav>
@@ -29,10 +29,10 @@
         <div class="nav-bar">
             <div class="infor">
                 <div class="avt">
-                    <a href=""><img src="img/avt.jpg" alt=""></a>
+                    <a href=""><img src="~/img/avt.jpg" alt=""></a>
                 </div>
                 <div class="name">
-                    <span>Nguyệt</span>
+                    <span>@ViewBag.UserName</span>
                 </div>
                 <div class="log-out">
                     <div id="myLogout" class="logout-content">

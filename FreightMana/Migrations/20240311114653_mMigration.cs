@@ -11,7 +11,9 @@ namespace FreightMana.Migrations
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
         {
-            migrationBuilder.CreateTable(
+			migrationBuilder.Sql("IF OBJECT_ID('CusAccounts', 'U') IS NOT NULL DROP TABLE CusAccounts;");
+
+			migrationBuilder.CreateTable(
                 name: "CusAccounts",
                 columns: table => new
                 {
@@ -101,7 +103,7 @@ namespace FreightMana.Migrations
                     recordAt = table.Column<DateTime>(type: "datetime", nullable: true),
                     cancelAt = table.Column<DateTime>(type: "datetime", nullable: true),
                     confirmAt = table.Column<DateTime>(type: "datetime", nullable: true),
-                    completAt = table.Column<DateTime>(type: "datetime", nullable: true),
+                    completeAt = table.Column<DateTime>(type: "datetime", nullable: true),
                     receiverID = table.Column<int>(type: "int", nullable: false),
                     senderID = table.Column<int>(type: "int", nullable: false),
                     warehouseID = table.Column<int>(type: "int", nullable: false),
