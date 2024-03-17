@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "E:\\Mew\\Code\\C#\\FManagement\\FreightMana\\FreightMana.csproj": {}
+    "F:\\C#\\FManagement\\FreightMana\\FreightMana.csproj": {}
   },
   "projects": {
-    "E:\\Mew\\Code\\C#\\FManagement\\FreightMana\\FreightMana.csproj": {
+    "F:\\C#\\FManagement\\FreightMana\\FreightMana.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\Mew\\Code\\C#\\FManagement\\FreightMana\\FreightMana.csproj",
+        "projectUniqueName": "F:\\C#\\FManagement\\FreightMana\\FreightMana.csproj",
         "projectName": "FreightMana",
-        "projectPath": "E:\\Mew\\Code\\C#\\FManagement\\FreightMana\\FreightMana.csproj",
-        "packagesPath": "C:\\Users\\HieuDoan\\.nuget\\packages\\",
-        "outputPath": "E:\\Mew\\Code\\C#\\FManagement\\FreightMana\\obj\\",
+        "projectPath": "F:\\C#\\FManagement\\FreightMana\\FreightMana.csproj",
+        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+        "outputPath": "F:\\C#\\FManagement\\FreightMana\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\HieuDoan\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -26,8 +22,6 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
-          "https://api.nuget.org/v3/index.json": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

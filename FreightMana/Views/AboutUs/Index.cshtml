@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="img/fevicon.png" type="">
+    <link rel="shortcut icon" href="~/img/fevicon.png" type="">
     <title> FINANCE | ABOUT US </title>
     <!-- <link rel="stylesheet" type="text/css" href="css/Customer/bootstrap.css" /> -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
@@ -46,7 +46,7 @@
                                     <a class="nav-link" href="@Url.Action("Index", "LoginCustomer")"><i class="fa-solid fa-user"></i><span style="margin-left: 5px;"> Đăng nhập</span></a>
                                 </li>
                                 <form class="form-inline">
-                                    <a href="http://127.0.0.1:5500/Home.html#searchForm">
+                                    <a href="/Home#searchForm">
                                         <button class="btn nav_search-btn" type="button"> <i class="fa fa-search" aria-hidden="true"></i></button>
                                     </a>
                                 </form>
@@ -120,9 +120,13 @@
                 </div>
                 <div class="col-lg-3 info_col ">
                     <h4>Đăng ký</h4>
+<<<<<<< HEAD
                     <form action="/LoginCustomer">
+=======
+                    <form>
+>>>>>>> 0030eda62331ce0c9de534f1f252e34edcc724cb
                         <input type="text" placeholder="Nhập email" />
-                        <button type="submit">Đăng ký</button>
+                        <a href="/LoginCustomer"><button type="submit">Đăng ký</button></a>
                     </form>
                 </div>
             </div>

@@ -1,503 +1,503 @@
 {
   "Files": [
     {
-      "Id": "E:\\Mew\\Code\\C#\\FManagement\\FreightMana\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\FreightMana.bundle.scp.css",
+      "Id": "F:\\C#\\FManagement\\FreightMana\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\FreightMana.bundle.scp.css",
       "PackagePath": "staticwebassets\\FreightMana.bundle.scp.css"
     },
     {
-      "Id": "E:\\Mew\\Code\\C#\\FManagement\\FreightMana\\wwwroot\\About_us.html",
+      "Id": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\About_us.html",
       "PackagePath": "staticwebassets\\About_us.html"
     },
     {
-      "Id": "E:\\Mew\\Code\\C#\\FManagement\\FreightMana\\wwwroot\\Confirm_order.html",
+      "Id": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\Confirm_order.html",
       "PackagePath": "staticwebassets\\Confirm_order.html"
     },
     {
-      "Id": "E:\\Mew\\Code\\C#\\FManagement\\FreightMana\\wwwroot\\Contact_us.html",
+      "Id": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\Contact_us.html",
       "PackagePath": "staticwebassets\\Contact_us.html"
     },
     {
-      "Id": "E:\\Mew\\Code\\C#\\FManagement\\FreightMana\\wwwroot\\Create_goods.html",
+      "Id": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\Create_goods.html",
       "PackagePath": "staticwebassets\\Create_goods.html"
     },
     {
-      "Id": "E:\\Mew\\Code\\C#\\FManagement\\FreightMana\\wwwroot\\Create_order.html",
+      "Id": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\Create_order.html",
       "PackagePath": "staticwebassets\\Create_order.html"
     },
     {
-      "Id": "E:\\Mew\\Code\\C#\\FManagement\\FreightMana\\wwwroot\\Customer.html",
+      "Id": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\Customer.html",
       "PackagePath": "staticwebassets\\Customer.html"
     },
     {
-      "Id": "E:\\Mew\\Code\\C#\\FManagement\\FreightMana\\wwwroot\\Customer_order.html",
+      "Id": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\Customer_order.html",
       "PackagePath": "staticwebassets\\Customer_order.html"
     },
     {
-      "Id": "E:\\Mew\\Code\\C#\\FManagement\\FreightMana\\wwwroot\\Dashboard.html",
+      "Id": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\Dashboard.html",
       "PackagePath": "staticwebassets\\Dashboard.html"
     },
     {
-      "Id": "E:\\Mew\\Code\\C#\\FManagement\\FreightMana\\wwwroot\\Home.html",
+      "Id": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\Home.html",
       "PackagePath": "staticwebassets\\Home.html"
     },
     {
-      "Id": "E:\\Mew\\Code\\C#\\FManagement\\FreightMana\\wwwroot\\List_order.html",
+      "Id": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\List_order.html",
       "PackagePath": "staticwebassets\\List_order.html"
     },
     {
-      "Id": "E:\\Mew\\Code\\C#\\FManagement\\FreightMana\\wwwroot\\Login_admin.html",
+      "Id": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\Login_admin.html",
       "PackagePath": "staticwebassets\\Login_admin.html"
     },
     {
-      "Id": "E:\\Mew\\Code\\C#\\FManagement\\FreightMana\\wwwroot\\Login_customer.html",
+      "Id": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\Login_customer.html",
       "PackagePath": "staticwebassets\\Login_customer.html"
     },
     {
-      "Id": "E:\\Mew\\Code\\C#\\FManagement\\FreightMana\\wwwroot\\Our_service.html",
+      "Id": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\Our_service.html",
       "PackagePath": "staticwebassets\\Our_service.html"
     },
     {
-      "Id": "E:\\Mew\\Code\\C#\\FManagement\\FreightMana\\wwwroot\\Price.html",
+      "Id": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\Price.html",
       "PackagePath": "staticwebassets\\Price.html"
     },
     {
-      "Id": "E:\\Mew\\Code\\C#\\FManagement\\FreightMana\\wwwroot\\README.md",
+      "Id": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\README.md",
       "PackagePath": "staticwebassets\\README.md"
     },
     {
-      "Id": "E:\\Mew\\Code\\C#\\FManagement\\FreightMana\\wwwroot\\Search.html",
+      "Id": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\Search.html",
       "PackagePath": "staticwebassets\\Search.html"
     },
     {
-      "Id": "E:\\Mew\\Code\\C#\\FManagement\\FreightMana\\wwwroot\\Staff.html",
+      "Id": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\Staff.html",
       "PackagePath": "staticwebassets\\Staff.html"
     },
     {
-      "Id": "E:\\Mew\\Code\\C#\\FManagement\\FreightMana\\wwwroot\\Time_work.html",
+      "Id": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\Time_work.html",
       "PackagePath": "staticwebassets\\Time_work.html"
     },
     {
-      "Id": "E:\\Mew\\Code\\C#\\FManagement\\FreightMana\\wwwroot\\css\\Admin\\create_goods.css",
+      "Id": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\css\\Admin\\create_goods.css",
       "PackagePath": "staticwebassets\\css\\Admin\\create_goods.css"
     },
     {
-      "Id": "E:\\Mew\\Code\\C#\\FManagement\\FreightMana\\wwwroot\\css\\Admin\\create_order.css",
+      "Id": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\css\\Admin\\create_order.css",
       "PackagePath": "staticwebassets\\css\\Admin\\create_order.css"
     },
     {
-      "Id": "E:\\Mew\\Code\\C#\\FManagement\\FreightMana\\wwwroot\\css\\Admin\\dashboard.css",
+      "Id": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\css\\Admin\\dashboard.css",
       "PackagePath": "staticwebassets\\css\\Admin\\dashboard.css"
     },
     {
-      "Id": "E:\\Mew\\Code\\C#\\FManagement\\FreightMana\\wwwroot\\css\\Admin\\list_order.css",
+      "Id": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\css\\Admin\\list_order.css",
       "PackagePath": "staticwebassets\\css\\Admin\\list_order.css"
     },
     {
-      "Id": "E:\\Mew\\Code\\C#\\FManagement\\FreightMana\\wwwroot\\css\\Admin\\login_admin.css",
+      "Id": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\css\\Admin\\login_admin.css",
       "PackagePath": "staticwebassets\\css\\Admin\\login_admin.css"
     },
     {
-      "Id": "E:\\Mew\\Code\\C#\\FManagement\\FreightMana\\wwwroot\\css\\Admin\\sidebar.css",
+      "Id": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\css\\Admin\\sidebar.css",
       "PackagePath": "staticwebassets\\css\\Admin\\sidebar.css"
     },
     {
-      "Id": "E:\\Mew\\Code\\C#\\FManagement\\FreightMana\\wwwroot\\css\\Admin\\staff.css",
+      "Id": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\css\\Admin\\staff.css",
       "PackagePath": "staticwebassets\\css\\Admin\\staff.css"
     },
     {
-      "Id": "E:\\Mew\\Code\\C#\\FManagement\\FreightMana\\wwwroot\\css\\Admin\\time_work.css",
+      "Id": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\css\\Admin\\time_work.css",
       "PackagePath": "staticwebassets\\css\\Admin\\time_work.css"
     },
     {
-      "Id": "E:\\Mew\\Code\\C#\\FManagement\\FreightMana\\wwwroot\\css\\Customer\\about_us.css",
+      "Id": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\css\\Customer\\about_us.css",
       "PackagePath": "staticwebassets\\css\\Customer\\about_us.css"
     },
     {
-      "Id": "E:\\Mew\\Code\\C#\\FManagement\\FreightMana\\wwwroot\\css\\Customer\\contact_us.css",
+      "Id": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\css\\Customer\\contact_us.css",
       "PackagePath": "staticwebassets\\css\\Customer\\contact_us.css"
     },
     {
-      "Id": "E:\\Mew\\Code\\C#\\FManagement\\FreightMana\\wwwroot\\css\\Customer\\footer.css",
+      "Id": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\css\\Customer\\footer.css",
       "PackagePath": "staticwebassets\\css\\Customer\\footer.css"
     },
     {
-      "Id": "E:\\Mew\\Code\\C#\\FManagement\\FreightMana\\wwwroot\\css\\Customer\\home.css",
+      "Id": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\css\\Customer\\home.css",
       "PackagePath": "staticwebassets\\css\\Customer\\home.css"
     },
     {
-      "Id": "E:\\Mew\\Code\\C#\\FManagement\\FreightMana\\wwwroot\\css\\Customer\\login_customer.css",
+      "Id": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\css\\Customer\\login_customer.css",
       "PackagePath": "staticwebassets\\css\\Customer\\login_customer.css"
     },
     {
-      "Id": "E:\\Mew\\Code\\C#\\FManagement\\FreightMana\\wwwroot\\css\\Customer\\nab_bar.css",
+      "Id": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\css\\Customer\\nab_bar.css",
       "PackagePath": "staticwebassets\\css\\Customer\\nab_bar.css"
     },
     {
-      "Id": "E:\\Mew\\Code\\C#\\FManagement\\FreightMana\\wwwroot\\css\\Customer\\our_services.css",
+      "Id": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\css\\Customer\\our_services.css",
       "PackagePath": "staticwebassets\\css\\Customer\\our_services.css"
     },
     {
-      "Id": "E:\\Mew\\Code\\C#\\FManagement\\FreightMana\\wwwroot\\css\\Customer\\price.css",
+      "Id": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\css\\Customer\\price.css",
       "PackagePath": "staticwebassets\\css\\Customer\\price.css"
     },
     {
-      "Id": "E:\\Mew\\Code\\C#\\FManagement\\FreightMana\\wwwroot\\css\\Customer\\search.css",
+      "Id": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\css\\Customer\\search.css",
       "PackagePath": "staticwebassets\\css\\Customer\\search.css"
     },
     {
-      "Id": "E:\\Mew\\Code\\C#\\FManagement\\FreightMana\\wwwroot\\css\\base.css",
+      "Id": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\css\\base.css",
       "PackagePath": "staticwebassets\\css\\base.css"
     },
     {
-      "Id": "E:\\Mew\\Code\\C#\\FManagement\\FreightMana\\wwwroot\\css\\site.css",
+      "Id": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "E:\\Mew\\Code\\C#\\FManagement\\FreightMana\\wwwroot\\favicon.ico",
+      "Id": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "E:\\Mew\\Code\\C#\\FManagement\\FreightMana\\wwwroot\\img\\about-img.jpg",
+      "Id": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\img\\about-img.jpg",
       "PackagePath": "staticwebassets\\img\\about-img.jpg"
     },
     {
-      "Id": "E:\\Mew\\Code\\C#\\FManagement\\FreightMana\\wwwroot\\img\\avt.jpg",
-      "PackagePath": "staticwebassets\\img\\avt.jpg"
+      "Id": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\img\\avt.png",
+      "PackagePath": "staticwebassets\\img\\avt.png"
     },
     {
-      "Id": "E:\\Mew\\Code\\C#\\FManagement\\FreightMana\\wwwroot\\img\\backImg.jpg",
+      "Id": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\img\\backImg.jpg",
       "PackagePath": "staticwebassets\\img\\backImg.jpg"
     },
     {
-      "Id": "E:\\Mew\\Code\\C#\\FManagement\\FreightMana\\wwwroot\\img\\client-1.png",
+      "Id": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\img\\client-1.png",
       "PackagePath": "staticwebassets\\img\\client-1.png"
     },
     {
-      "Id": "E:\\Mew\\Code\\C#\\FManagement\\FreightMana\\wwwroot\\img\\client-2.png",
+      "Id": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\img\\client-2.png",
       "PackagePath": "staticwebassets\\img\\client-2.png"
     },
     {
-      "Id": "E:\\Mew\\Code\\C#\\FManagement\\FreightMana\\wwwroot\\img\\favicon.png",
+      "Id": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\img\\favicon.png",
       "PackagePath": "staticwebassets\\img\\favicon.png"
     },
     {
-      "Id": "E:\\Mew\\Code\\C#\\FManagement\\FreightMana\\wwwroot\\img\\fevicon.png",
+      "Id": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\img\\fevicon.png",
       "PackagePath": "staticwebassets\\img\\fevicon.png"
     },
     {
-      "Id": "E:\\Mew\\Code\\C#\\FManagement\\FreightMana\\wwwroot\\img\\logo.png",
+      "Id": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\img\\logo.png",
       "PackagePath": "staticwebassets\\img\\logo.png"
     },
     {
-      "Id": "E:\\Mew\\Code\\C#\\FManagement\\FreightMana\\wwwroot\\img\\next.png",
+      "Id": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\img\\next.png",
       "PackagePath": "staticwebassets\\img\\next.png"
     },
     {
-      "Id": "E:\\Mew\\Code\\C#\\FManagement\\FreightMana\\wwwroot\\img\\prev.png",
+      "Id": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\img\\prev.png",
       "PackagePath": "staticwebassets\\img\\prev.png"
     },
     {
-      "Id": "E:\\Mew\\Code\\C#\\FManagement\\FreightMana\\wwwroot\\img\\s1.png",
+      "Id": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\img\\s1.png",
       "PackagePath": "staticwebassets\\img\\s1.png"
     },
     {
-      "Id": "E:\\Mew\\Code\\C#\\FManagement\\FreightMana\\wwwroot\\img\\s2.png",
+      "Id": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\img\\s2.png",
       "PackagePath": "staticwebassets\\img\\s2.png"
     },
     {
-      "Id": "E:\\Mew\\Code\\C#\\FManagement\\FreightMana\\wwwroot\\img\\s3.png",
+      "Id": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\img\\s3.png",
       "PackagePath": "staticwebassets\\img\\s3.png"
     },
     {
-      "Id": "E:\\Mew\\Code\\C#\\FManagement\\FreightMana\\wwwroot\\img\\s4.png",
+      "Id": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\img\\s4.png",
       "PackagePath": "staticwebassets\\img\\s4.png"
     },
     {
-      "Id": "E:\\Mew\\Code\\C#\\FManagement\\FreightMana\\wwwroot\\img\\slider-bg.jpg",
+      "Id": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\img\\slider-bg.jpg",
       "PackagePath": "staticwebassets\\img\\slider-bg.jpg"
     },
     {
-      "Id": "E:\\Mew\\Code\\C#\\FManagement\\FreightMana\\wwwroot\\img\\track-bg.jpg",
+      "Id": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\img\\track-bg.jpg",
       "PackagePath": "staticwebassets\\img\\track-bg.jpg"
     },
     {
-      "Id": "E:\\Mew\\Code\\C#\\FManagement\\FreightMana\\wwwroot\\js\\add_staff.js",
+      "Id": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\js\\add_staff.js",
       "PackagePath": "staticwebassets\\js\\add_staff.js"
     },
     {
-      "Id": "E:\\Mew\\Code\\C#\\FManagement\\FreightMana\\wwwroot\\js\\bootstrap.js",
+      "Id": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\js\\bootstrap.js"
     },
     {
-      "Id": "E:\\Mew\\Code\\C#\\FManagement\\FreightMana\\wwwroot\\js\\create_order.js",
+      "Id": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\js\\create_order.js",
       "PackagePath": "staticwebassets\\js\\create_order.js"
     },
     {
-      "Id": "E:\\Mew\\Code\\C#\\FManagement\\FreightMana\\wwwroot\\js\\customer.js",
+      "Id": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\js\\customer.js",
       "PackagePath": "staticwebassets\\js\\customer.js"
     },
     {
-      "Id": "E:\\Mew\\Code\\C#\\FManagement\\FreightMana\\wwwroot\\js\\dashboard.js",
+      "Id": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\js\\dashboard.js",
       "PackagePath": "staticwebassets\\js\\dashboard.js"
     },
     {
-      "Id": "E:\\Mew\\Code\\C#\\FManagement\\FreightMana\\wwwroot\\js\\data.json",
+      "Id": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\js\\data.json",
       "PackagePath": "staticwebassets\\js\\data.json"
     },
     {
-      "Id": "E:\\Mew\\Code\\C#\\FManagement\\FreightMana\\wwwroot\\js\\jquery-3.4.1.min.js",
+      "Id": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\js\\jquery-3.4.1.min.js",
       "PackagePath": "staticwebassets\\js\\jquery-3.4.1.min.js"
     },
     {
-      "Id": "E:\\Mew\\Code\\C#\\FManagement\\FreightMana\\wwwroot\\js\\receive_address.js",
+      "Id": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\js\\receive_address.js",
       "PackagePath": "staticwebassets\\js\\receive_address.js"
     },
     {
-      "Id": "E:\\Mew\\Code\\C#\\FManagement\\FreightMana\\wwwroot\\js\\search.js",
+      "Id": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\js\\search.js",
       "PackagePath": "staticwebassets\\js\\search.js"
     },
     {
-      "Id": "E:\\Mew\\Code\\C#\\FManagement\\FreightMana\\wwwroot\\js\\send_address.js",
+      "Id": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\js\\send_address.js",
       "PackagePath": "staticwebassets\\js\\send_address.js"
     },
     {
-      "Id": "E:\\Mew\\Code\\C#\\FManagement\\FreightMana\\wwwroot\\js\\shipping.js",
+      "Id": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\js\\shipping.js",
       "PackagePath": "staticwebassets\\js\\shipping.js"
     },
     {
-      "Id": "E:\\Mew\\Code\\C#\\FManagement\\FreightMana\\wwwroot\\js\\sidebar.js",
+      "Id": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\js\\sidebar.js",
       "PackagePath": "staticwebassets\\js\\sidebar.js"
     },
     {
-      "Id": "E:\\Mew\\Code\\C#\\FManagement\\FreightMana\\wwwroot\\js\\site.js",
+      "Id": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "E:\\Mew\\Code\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "E:\\Mew\\Code\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "E:\\Mew\\Code\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "E:\\Mew\\Code\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "E:\\Mew\\Code\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "E:\\Mew\\Code\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "E:\\Mew\\Code\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "E:\\Mew\\Code\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "E:\\Mew\\Code\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "E:\\Mew\\Code\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "E:\\Mew\\Code\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "E:\\Mew\\Code\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "E:\\Mew\\Code\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "E:\\Mew\\Code\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "E:\\Mew\\Code\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "E:\\Mew\\Code\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "E:\\Mew\\Code\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "E:\\Mew\\Code\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "E:\\Mew\\Code\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "E:\\Mew\\Code\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "E:\\Mew\\Code\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "E:\\Mew\\Code\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "E:\\Mew\\Code\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "E:\\Mew\\Code\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "E:\\Mew\\Code\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "E:\\Mew\\Code\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "E:\\Mew\\Code\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "E:\\Mew\\Code\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "E:\\Mew\\Code\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "E:\\Mew\\Code\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "E:\\Mew\\Code\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "E:\\Mew\\Code\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "E:\\Mew\\Code\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "E:\\Mew\\Code\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "E:\\Mew\\Code\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "E:\\Mew\\Code\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "E:\\Mew\\Code\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "E:\\Mew\\Code\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "E:\\Mew\\Code\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "E:\\Mew\\Code\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "E:\\Mew\\Code\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "E:\\Mew\\Code\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "E:\\Mew\\Code\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "E:\\Mew\\Code\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "E:\\Mew\\Code\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "E:\\Mew\\Code\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "E:\\Mew\\Code\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "E:\\Mew\\Code\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "E:\\Mew\\Code\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "E:\\Mew\\Code\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "E:\\Mew\\Code\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "E:\\Mew\\Code\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "E:\\Mew\\Code\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "E:\\Mew\\Code\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "E:\\Mew\\Code\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "E:\\Mew\\Code\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "E:\\Mew\\Code\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
