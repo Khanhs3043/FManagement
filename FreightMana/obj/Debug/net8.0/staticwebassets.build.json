@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "YhtkDxUt+9Ebgha2E2CUVDlhieHwVngPsv3Kde9ab5U=",
+  "Hash": "rbi9ShxsQrrnQcr6FoMgnHkaka79gQA2vuCbACbsTWY=",
   "Source": "FreightMana",
   "BasePath": "_content/FreightMana",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "FreightMana\\wwwroot",
       "Source": "FreightMana",
-      "ContentRoot": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\",
+      "ContentRoot": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\",
       "BasePath": "_content/FreightMana",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "F:\\C#\\FManagement\\FreightMana\\obj\\Debug\\net8.0\\scopedcss\\bundle\\FreightMana.styles.css",
+      "Identity": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\obj\\Debug\\net8.0\\scopedcss\\bundle\\FreightMana.styles.css",
       "SourceId": "FreightMana",
       "SourceType": "Computed",
-      "ContentRoot": "F:\\C#\\FManagement\\FreightMana\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/FreightMana",
       "RelativePath": "FreightMana.styles.css",
       "AssetKind": "All",
@@ -33,13 +33,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "F:\\C#\\FManagement\\FreightMana\\obj\\Debug\\net8.0\\scopedcss\\bundle\\FreightMana.styles.css"
+      "OriginalItemSpec": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\obj\\Debug\\net8.0\\scopedcss\\bundle\\FreightMana.styles.css"
     },
     {
-      "Identity": "F:\\C#\\FManagement\\FreightMana\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\FreightMana.bundle.scp.css",
+      "Identity": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\FreightMana.bundle.scp.css",
       "SourceId": "FreightMana",
       "SourceType": "Computed",
-      "ContentRoot": "F:\\C#\\FManagement\\FreightMana\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/FreightMana",
       "RelativePath": "FreightMana.bundle.scp.css",
       "AssetKind": "All",
@@ -52,13 +52,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "F:\\C#\\FManagement\\FreightMana\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\FreightMana.bundle.scp.css"
+      "OriginalItemSpec": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\FreightMana.bundle.scp.css"
     },
     {
-      "Identity": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\About_us.html",
+      "Identity": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\About_us.html",
       "SourceId": "FreightMana",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\",
+      "ContentRoot": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\",
       "BasePath": "_content/FreightMana",
       "RelativePath": "About_us.html",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\About_us.html"
     },
     {
-      "Identity": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\Confirm_order.html",
+      "Identity": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\Confirm_order.html",
       "SourceId": "FreightMana",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\",
+      "ContentRoot": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\",
       "BasePath": "_content/FreightMana",
       "RelativePath": "Confirm_order.html",
       "AssetKind": "All",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot\\Confirm_order.html"
     },
     {
-      "Identity": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\Contact_us.html",
+      "Identity": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\Contact_us.html",
       "SourceId": "FreightMana",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\",
+      "ContentRoot": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\",
       "BasePath": "_content/FreightMana",
       "RelativePath": "Contact_us.html",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\Contact_us.html"
     },
     {
-      "Identity": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\Create_goods.html",
+      "Identity": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\Create_goods.html",
       "SourceId": "FreightMana",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\",
+      "ContentRoot": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\",
       "BasePath": "_content/FreightMana",
       "RelativePath": "Create_goods.html",
       "AssetKind": "All",
@@ -131,10 +131,10 @@
       "OriginalItemSpec": "wwwroot\\Create_goods.html"
     },
     {
-      "Identity": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\Create_order.html",
+      "Identity": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\Create_order.html",
       "SourceId": "FreightMana",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\",
+      "ContentRoot": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\",
       "BasePath": "_content/FreightMana",
       "RelativePath": "Create_order.html",
       "AssetKind": "All",
@@ -150,10 +150,10 @@
       "OriginalItemSpec": "wwwroot\\Create_order.html"
     },
     {
-      "Identity": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\css\\Admin\\create_goods.css",
+      "Identity": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\css\\Admin\\create_goods.css",
       "SourceId": "FreightMana",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\",
+      "ContentRoot": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\",
       "BasePath": "_content/FreightMana",
       "RelativePath": "css/Admin/create_goods.css",
       "AssetKind": "All",
@@ -169,10 +169,10 @@
       "OriginalItemSpec": "wwwroot\\css\\Admin\\create_goods.css"
     },
     {
-      "Identity": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\css\\Admin\\create_order.css",
+      "Identity": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\css\\Admin\\create_order.css",
       "SourceId": "FreightMana",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\",
+      "ContentRoot": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\",
       "BasePath": "_content/FreightMana",
       "RelativePath": "css/Admin/create_order.css",
       "AssetKind": "All",
@@ -188,10 +188,10 @@
       "OriginalItemSpec": "wwwroot\\css\\Admin\\create_order.css"
     },
     {
-      "Identity": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\css\\Admin\\dashboard.css",
+      "Identity": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\css\\Admin\\dashboard.css",
       "SourceId": "FreightMana",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\",
+      "ContentRoot": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\",
       "BasePath": "_content/FreightMana",
       "RelativePath": "css/Admin/dashboard.css",
       "AssetKind": "All",
@@ -207,10 +207,10 @@
       "OriginalItemSpec": "wwwroot\\css\\Admin\\dashboard.css"
     },
     {
-      "Identity": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\css\\Admin\\list_order.css",
+      "Identity": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\css\\Admin\\list_order.css",
       "SourceId": "FreightMana",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\",
+      "ContentRoot": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\",
       "BasePath": "_content/FreightMana",
       "RelativePath": "css/Admin/list_order.css",
       "AssetKind": "All",
@@ -226,10 +226,10 @@
       "OriginalItemSpec": "wwwroot\\css\\Admin\\list_order.css"
     },
     {
-      "Identity": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\css\\Admin\\login_admin.css",
+      "Identity": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\css\\Admin\\login_admin.css",
       "SourceId": "FreightMana",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\",
+      "ContentRoot": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\",
       "BasePath": "_content/FreightMana",
       "RelativePath": "css/Admin/login_admin.css",
       "AssetKind": "All",
@@ -245,10 +245,10 @@
       "OriginalItemSpec": "wwwroot\\css\\Admin\\login_admin.css"
     },
     {
-      "Identity": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\css\\Admin\\sidebar.css",
+      "Identity": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\css\\Admin\\sidebar.css",
       "SourceId": "FreightMana",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\",
+      "ContentRoot": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\",
       "BasePath": "_content/FreightMana",
       "RelativePath": "css/Admin/sidebar.css",
       "AssetKind": "All",
@@ -264,10 +264,10 @@
       "OriginalItemSpec": "wwwroot\\css\\Admin\\sidebar.css"
     },
     {
-      "Identity": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\css\\Admin\\staff.css",
+      "Identity": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\css\\Admin\\staff.css",
       "SourceId": "FreightMana",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\",
+      "ContentRoot": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\",
       "BasePath": "_content/FreightMana",
       "RelativePath": "css/Admin/staff.css",
       "AssetKind": "All",
@@ -283,10 +283,10 @@
       "OriginalItemSpec": "wwwroot\\css\\Admin\\staff.css"
     },
     {
-      "Identity": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\css\\Admin\\time_work.css",
+      "Identity": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\css\\Admin\\time_work.css",
       "SourceId": "FreightMana",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\",
+      "ContentRoot": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\",
       "BasePath": "_content/FreightMana",
       "RelativePath": "css/Admin/time_work.css",
       "AssetKind": "All",
@@ -302,10 +302,10 @@
       "OriginalItemSpec": "wwwroot\\css\\Admin\\time_work.css"
     },
     {
-      "Identity": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\css\\base.css",
+      "Identity": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\css\\base.css",
       "SourceId": "FreightMana",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\",
+      "ContentRoot": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\",
       "BasePath": "_content/FreightMana",
       "RelativePath": "css/base.css",
       "AssetKind": "All",
@@ -321,10 +321,10 @@
       "OriginalItemSpec": "wwwroot\\css\\base.css"
     },
     {
-      "Identity": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\css\\Customer\\about_us.css",
+      "Identity": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\css\\Customer\\about_us.css",
       "SourceId": "FreightMana",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\",
+      "ContentRoot": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\",
       "BasePath": "_content/FreightMana",
       "RelativePath": "css/Customer/about_us.css",
       "AssetKind": "All",
@@ -340,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\css\\Customer\\about_us.css"
     },
     {
-      "Identity": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\css\\Customer\\contact_us.css",
+      "Identity": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\css\\Customer\\contact_us.css",
       "SourceId": "FreightMana",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\",
+      "ContentRoot": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\",
       "BasePath": "_content/FreightMana",
       "RelativePath": "css/Customer/contact_us.css",
       "AssetKind": "All",
@@ -359,10 +359,10 @@
       "OriginalItemSpec": "wwwroot\\css\\Customer\\contact_us.css"
     },
     {
-      "Identity": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\css\\Customer\\footer.css",
+      "Identity": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\css\\Customer\\footer.css",
       "SourceId": "FreightMana",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\",
+      "ContentRoot": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\",
       "BasePath": "_content/FreightMana",
       "RelativePath": "css/Customer/footer.css",
       "AssetKind": "All",
@@ -378,10 +378,10 @@
       "OriginalItemSpec": "wwwroot\\css\\Customer\\footer.css"
     },
     {
-      "Identity": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\css\\Customer\\home.css",
+      "Identity": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\css\\Customer\\home.css",
       "SourceId": "FreightMana",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\",
+      "ContentRoot": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\",
       "BasePath": "_content/FreightMana",
       "RelativePath": "css/Customer/home.css",
       "AssetKind": "All",
@@ -397,10 +397,10 @@
       "OriginalItemSpec": "wwwroot\\css\\Customer\\home.css"
     },
     {
-      "Identity": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\css\\Customer\\login_customer.css",
+      "Identity": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\css\\Customer\\login_customer.css",
       "SourceId": "FreightMana",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\",
+      "ContentRoot": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\",
       "BasePath": "_content/FreightMana",
       "RelativePath": "css/Customer/login_customer.css",
       "AssetKind": "All",
@@ -416,10 +416,10 @@
       "OriginalItemSpec": "wwwroot\\css\\Customer\\login_customer.css"
     },
     {
-      "Identity": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\css\\Customer\\nab_bar.css",
+      "Identity": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\css\\Customer\\nab_bar.css",
       "SourceId": "FreightMana",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\",
+      "ContentRoot": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\",
       "BasePath": "_content/FreightMana",
       "RelativePath": "css/Customer/nab_bar.css",
       "AssetKind": "All",
@@ -435,10 +435,10 @@
       "OriginalItemSpec": "wwwroot\\css\\Customer\\nab_bar.css"
     },
     {
-      "Identity": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\css\\Customer\\our_services.css",
+      "Identity": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\css\\Customer\\our_services.css",
       "SourceId": "FreightMana",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\",
+      "ContentRoot": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\",
       "BasePath": "_content/FreightMana",
       "RelativePath": "css/Customer/our_services.css",
       "AssetKind": "All",
@@ -454,10 +454,10 @@
       "OriginalItemSpec": "wwwroot\\css\\Customer\\our_services.css"
     },
     {
-      "Identity": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\css\\Customer\\price.css",
+      "Identity": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\css\\Customer\\price.css",
       "SourceId": "FreightMana",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\",
+      "ContentRoot": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\",
       "BasePath": "_content/FreightMana",
       "RelativePath": "css/Customer/price.css",
       "AssetKind": "All",
@@ -473,10 +473,10 @@
       "OriginalItemSpec": "wwwroot\\css\\Customer\\price.css"
     },
     {
-      "Identity": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\css\\Customer\\search.css",
+      "Identity": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\css\\Customer\\search.css",
       "SourceId": "FreightMana",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\",
+      "ContentRoot": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\",
       "BasePath": "_content/FreightMana",
       "RelativePath": "css/Customer/search.css",
       "AssetKind": "All",
@@ -492,10 +492,10 @@
       "OriginalItemSpec": "wwwroot\\css\\Customer\\search.css"
     },
     {
-      "Identity": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\css\\site.css",
+      "Identity": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\css\\site.css",
       "SourceId": "FreightMana",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\",
+      "ContentRoot": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\",
       "BasePath": "_content/FreightMana",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -511,10 +511,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\Customer.html",
+      "Identity": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\Customer.html",
       "SourceId": "FreightMana",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\",
+      "ContentRoot": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\",
       "BasePath": "_content/FreightMana",
       "RelativePath": "Customer.html",
       "AssetKind": "All",
@@ -530,10 +530,10 @@
       "OriginalItemSpec": "wwwroot\\Customer.html"
     },
     {
-      "Identity": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\Customer_order.html",
+      "Identity": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\Customer_order.html",
       "SourceId": "FreightMana",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\",
+      "ContentRoot": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\",
       "BasePath": "_content/FreightMana",
       "RelativePath": "Customer_order.html",
       "AssetKind": "All",
@@ -549,10 +549,10 @@
       "OriginalItemSpec": "wwwroot\\Customer_order.html"
     },
     {
-      "Identity": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\Dashboard.html",
+      "Identity": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\Dashboard.html",
       "SourceId": "FreightMana",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\",
+      "ContentRoot": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\",
       "BasePath": "_content/FreightMana",
       "RelativePath": "Dashboard.html",
       "AssetKind": "All",
@@ -568,10 +568,10 @@
       "OriginalItemSpec": "wwwroot\\Dashboard.html"
     },
     {
-      "Identity": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\favicon.ico",
+      "Identity": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\favicon.ico",
       "SourceId": "FreightMana",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\",
+      "ContentRoot": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\",
       "BasePath": "_content/FreightMana",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -587,10 +587,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\Home.html",
+      "Identity": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\Home.html",
       "SourceId": "FreightMana",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\",
+      "ContentRoot": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\",
       "BasePath": "_content/FreightMana",
       "RelativePath": "Home.html",
       "AssetKind": "All",
@@ -606,10 +606,10 @@
       "OriginalItemSpec": "wwwroot\\Home.html"
     },
     {
-      "Identity": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\img\\about-img.jpg",
+      "Identity": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\img\\about-img.jpg",
       "SourceId": "FreightMana",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\",
+      "ContentRoot": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\",
       "BasePath": "_content/FreightMana",
       "RelativePath": "img/about-img.jpg",
       "AssetKind": "All",
@@ -625,10 +625,10 @@
       "OriginalItemSpec": "wwwroot\\img\\about-img.jpg"
     },
     {
-      "Identity": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\img\\avt.png",
+      "Identity": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\img\\avt.png",
       "SourceId": "FreightMana",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\",
+      "ContentRoot": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\",
       "BasePath": "_content/FreightMana",
       "RelativePath": "img/avt.png",
       "AssetKind": "All",
@@ -644,10 +644,10 @@
       "OriginalItemSpec": "wwwroot\\img\\avt.png"
     },
     {
-      "Identity": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\img\\backImg.jpg",
+      "Identity": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\img\\backImg.jpg",
       "SourceId": "FreightMana",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\",
+      "ContentRoot": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\",
       "BasePath": "_content/FreightMana",
       "RelativePath": "img/backImg.jpg",
       "AssetKind": "All",
@@ -663,10 +663,10 @@
       "OriginalItemSpec": "wwwroot\\img\\backImg.jpg"
     },
     {
-      "Identity": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\img\\client-1.png",
+      "Identity": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\img\\client-1.png",
       "SourceId": "FreightMana",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\",
+      "ContentRoot": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\",
       "BasePath": "_content/FreightMana",
       "RelativePath": "img/client-1.png",
       "AssetKind": "All",
@@ -682,10 +682,10 @@
       "OriginalItemSpec": "wwwroot\\img\\client-1.png"
     },
     {
-      "Identity": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\img\\client-2.png",
+      "Identity": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\img\\client-2.png",
       "SourceId": "FreightMana",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\",
+      "ContentRoot": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\",
       "BasePath": "_content/FreightMana",
       "RelativePath": "img/client-2.png",
       "AssetKind": "All",
@@ -701,10 +701,10 @@
       "OriginalItemSpec": "wwwroot\\img\\client-2.png"
     },
     {
-      "Identity": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\img\\favicon.png",
+      "Identity": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\img\\favicon.png",
       "SourceId": "FreightMana",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\",
+      "ContentRoot": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\",
       "BasePath": "_content/FreightMana",
       "RelativePath": "img/favicon.png",
       "AssetKind": "All",
@@ -720,10 +720,10 @@
       "OriginalItemSpec": "wwwroot\\img\\favicon.png"
     },
     {
-      "Identity": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\img\\fevicon.png",
+      "Identity": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\img\\fevicon.png",
       "SourceId": "FreightMana",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\",
+      "ContentRoot": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\",
       "BasePath": "_content/FreightMana",
       "RelativePath": "img/fevicon.png",
       "AssetKind": "All",
@@ -739,10 +739,10 @@
       "OriginalItemSpec": "wwwroot\\img\\fevicon.png"
     },
     {
-      "Identity": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\img\\logo.png",
+      "Identity": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\img\\logo.png",
       "SourceId": "FreightMana",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\",
+      "ContentRoot": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\",
       "BasePath": "_content/FreightMana",
       "RelativePath": "img/logo.png",
       "AssetKind": "All",
@@ -758,10 +758,10 @@
       "OriginalItemSpec": "wwwroot\\img\\logo.png"
     },
     {
-      "Identity": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\img\\next.png",
+      "Identity": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\img\\next.png",
       "SourceId": "FreightMana",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\",
+      "ContentRoot": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\",
       "BasePath": "_content/FreightMana",
       "RelativePath": "img/next.png",
       "AssetKind": "All",
@@ -777,10 +777,10 @@
       "OriginalItemSpec": "wwwroot\\img\\next.png"
     },
     {
-      "Identity": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\img\\prev.png",
+      "Identity": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\img\\prev.png",
       "SourceId": "FreightMana",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\",
+      "ContentRoot": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\",
       "BasePath": "_content/FreightMana",
       "RelativePath": "img/prev.png",
       "AssetKind": "All",
@@ -796,10 +796,10 @@
       "OriginalItemSpec": "wwwroot\\img\\prev.png"
     },
     {
-      "Identity": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\img\\s1.png",
+      "Identity": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\img\\s1.png",
       "SourceId": "FreightMana",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\",
+      "ContentRoot": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\",
       "BasePath": "_content/FreightMana",
       "RelativePath": "img/s1.png",
       "AssetKind": "All",
@@ -815,10 +815,10 @@
       "OriginalItemSpec": "wwwroot\\img\\s1.png"
     },
     {
-      "Identity": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\img\\s2.png",
+      "Identity": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\img\\s2.png",
       "SourceId": "FreightMana",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\",
+      "ContentRoot": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\",
       "BasePath": "_content/FreightMana",
       "RelativePath": "img/s2.png",
       "AssetKind": "All",
@@ -834,10 +834,10 @@
       "OriginalItemSpec": "wwwroot\\img\\s2.png"
     },
     {
-      "Identity": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\img\\s3.png",
+      "Identity": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\img\\s3.png",
       "SourceId": "FreightMana",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\",
+      "ContentRoot": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\",
       "BasePath": "_content/FreightMana",
       "RelativePath": "img/s3.png",
       "AssetKind": "All",
@@ -853,10 +853,10 @@
       "OriginalItemSpec": "wwwroot\\img\\s3.png"
     },
     {
-      "Identity": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\img\\s4.png",
+      "Identity": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\img\\s4.png",
       "SourceId": "FreightMana",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\",
+      "ContentRoot": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\",
       "BasePath": "_content/FreightMana",
       "RelativePath": "img/s4.png",
       "AssetKind": "All",
@@ -872,10 +872,10 @@
       "OriginalItemSpec": "wwwroot\\img\\s4.png"
     },
     {
-      "Identity": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\img\\slider-bg.jpg",
+      "Identity": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\img\\slider-bg.jpg",
       "SourceId": "FreightMana",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\",
+      "ContentRoot": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\",
       "BasePath": "_content/FreightMana",
       "RelativePath": "img/slider-bg.jpg",
       "AssetKind": "All",
@@ -891,10 +891,10 @@
       "OriginalItemSpec": "wwwroot\\img\\slider-bg.jpg"
     },
     {
-      "Identity": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\img\\track-bg.jpg",
+      "Identity": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\img\\track-bg.jpg",
       "SourceId": "FreightMana",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\",
+      "ContentRoot": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\",
       "BasePath": "_content/FreightMana",
       "RelativePath": "img/track-bg.jpg",
       "AssetKind": "All",
@@ -910,10 +910,10 @@
       "OriginalItemSpec": "wwwroot\\img\\track-bg.jpg"
     },
     {
-      "Identity": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\js\\add_staff.js",
+      "Identity": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\js\\add_staff.js",
       "SourceId": "FreightMana",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\",
+      "ContentRoot": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\",
       "BasePath": "_content/FreightMana",
       "RelativePath": "js/add_staff.js",
       "AssetKind": "All",
@@ -929,10 +929,10 @@
       "OriginalItemSpec": "wwwroot\\js\\add_staff.js"
     },
     {
-      "Identity": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\js\\bootstrap.js",
+      "Identity": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\js\\bootstrap.js",
       "SourceId": "FreightMana",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\",
+      "ContentRoot": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\",
       "BasePath": "_content/FreightMana",
       "RelativePath": "js/bootstrap.js",
       "AssetKind": "All",
@@ -948,10 +948,10 @@
       "OriginalItemSpec": "wwwroot\\js\\bootstrap.js"
     },
     {
-      "Identity": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\js\\create_order.js",
+      "Identity": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\js\\create_order.js",
       "SourceId": "FreightMana",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\",
+      "ContentRoot": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\",
       "BasePath": "_content/FreightMana",
       "RelativePath": "js/create_order.js",
       "AssetKind": "All",
@@ -967,10 +967,10 @@
       "OriginalItemSpec": "wwwroot\\js\\create_order.js"
     },
     {
-      "Identity": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\js\\customer.js",
+      "Identity": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\js\\customer.js",
       "SourceId": "FreightMana",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\",
+      "ContentRoot": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\",
       "BasePath": "_content/FreightMana",
       "RelativePath": "js/customer.js",
       "AssetKind": "All",
@@ -986,10 +986,10 @@
       "OriginalItemSpec": "wwwroot\\js\\customer.js"
     },
     {
-      "Identity": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\js\\dashboard.js",
+      "Identity": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\js\\dashboard.js",
       "SourceId": "FreightMana",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\",
+      "ContentRoot": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\",
       "BasePath": "_content/FreightMana",
       "RelativePath": "js/dashboard.js",
       "AssetKind": "All",
@@ -1005,10 +1005,10 @@
       "OriginalItemSpec": "wwwroot\\js\\dashboard.js"
     },
     {
-      "Identity": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\js\\data.json",
+      "Identity": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\js\\data.json",
       "SourceId": "FreightMana",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\",
+      "ContentRoot": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\",
       "BasePath": "_content/FreightMana",
       "RelativePath": "js/data.json",
       "AssetKind": "All",
@@ -1024,10 +1024,10 @@
       "OriginalItemSpec": "wwwroot\\js\\data.json"
     },
     {
-      "Identity": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\js\\jquery-3.4.1.min.js",
+      "Identity": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\js\\jquery-3.4.1.min.js",
       "SourceId": "FreightMana",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\",
+      "ContentRoot": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\",
       "BasePath": "_content/FreightMana",
       "RelativePath": "js/jquery-3.4.1.min.js",
       "AssetKind": "All",
@@ -1043,10 +1043,10 @@
       "OriginalItemSpec": "wwwroot\\js\\jquery-3.4.1.min.js"
     },
     {
-      "Identity": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\js\\receive_address.js",
+      "Identity": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\js\\receive_address.js",
       "SourceId": "FreightMana",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\",
+      "ContentRoot": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\",
       "BasePath": "_content/FreightMana",
       "RelativePath": "js/receive_address.js",
       "AssetKind": "All",
@@ -1062,10 +1062,10 @@
       "OriginalItemSpec": "wwwroot\\js\\receive_address.js"
     },
     {
-      "Identity": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\js\\search.js",
+      "Identity": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\js\\search.js",
       "SourceId": "FreightMana",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\",
+      "ContentRoot": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\",
       "BasePath": "_content/FreightMana",
       "RelativePath": "js/search.js",
       "AssetKind": "All",
@@ -1081,10 +1081,10 @@
       "OriginalItemSpec": "wwwroot\\js\\search.js"
     },
     {
-      "Identity": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\js\\send_address.js",
+      "Identity": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\js\\send_address.js",
       "SourceId": "FreightMana",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\",
+      "ContentRoot": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\",
       "BasePath": "_content/FreightMana",
       "RelativePath": "js/send_address.js",
       "AssetKind": "All",
@@ -1100,10 +1100,10 @@
       "OriginalItemSpec": "wwwroot\\js\\send_address.js"
     },
     {
-      "Identity": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\js\\shipping.js",
+      "Identity": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\js\\shipping.js",
       "SourceId": "FreightMana",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\",
+      "ContentRoot": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\",
       "BasePath": "_content/FreightMana",
       "RelativePath": "js/shipping.js",
       "AssetKind": "All",
@@ -1119,10 +1119,10 @@
       "OriginalItemSpec": "wwwroot\\js\\shipping.js"
     },
     {
-      "Identity": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\js\\sidebar.js",
+      "Identity": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\js\\sidebar.js",
       "SourceId": "FreightMana",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\",
+      "ContentRoot": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\",
       "BasePath": "_content/FreightMana",
       "RelativePath": "js/sidebar.js",
       "AssetKind": "All",
@@ -1138,10 +1138,10 @@
       "OriginalItemSpec": "wwwroot\\js\\sidebar.js"
     },
     {
-      "Identity": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\js\\site.js",
+      "Identity": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\js\\site.js",
       "SourceId": "FreightMana",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\",
+      "ContentRoot": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\",
       "BasePath": "_content/FreightMana",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -1157,10 +1157,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "FreightMana",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\",
+      "ContentRoot": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\",
       "BasePath": "_content/FreightMana",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -1176,10 +1176,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "FreightMana",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\",
+      "ContentRoot": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\",
       "BasePath": "_content/FreightMana",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -1195,10 +1195,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "FreightMana",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\",
+      "ContentRoot": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\",
       "BasePath": "_content/FreightMana",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -1214,10 +1214,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "FreightMana",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\",
+      "ContentRoot": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\",
       "BasePath": "_content/FreightMana",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -1233,10 +1233,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "FreightMana",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\",
+      "ContentRoot": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\",
       "BasePath": "_content/FreightMana",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -1252,10 +1252,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "FreightMana",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\",
+      "ContentRoot": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\",
       "BasePath": "_content/FreightMana",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -1271,10 +1271,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "FreightMana",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\",
+      "ContentRoot": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\",
       "BasePath": "_content/FreightMana",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -1290,10 +1290,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "FreightMana",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\",
+      "ContentRoot": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\",
       "BasePath": "_content/FreightMana",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -1309,10 +1309,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "FreightMana",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\",
+      "ContentRoot": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\",
       "BasePath": "_content/FreightMana",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -1328,10 +1328,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "FreightMana",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\",
+      "ContentRoot": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\",
       "BasePath": "_content/FreightMana",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -1347,10 +1347,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "FreightMana",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\",
+      "ContentRoot": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\",
       "BasePath": "_content/FreightMana",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -1366,10 +1366,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "FreightMana",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\",
+      "ContentRoot": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\",
       "BasePath": "_content/FreightMana",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -1385,10 +1385,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "FreightMana",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\",
+      "ContentRoot": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\",
       "BasePath": "_content/FreightMana",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -1404,10 +1404,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "FreightMana",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\",
+      "ContentRoot": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\",
       "BasePath": "_content/FreightMana",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -1423,10 +1423,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "FreightMana",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\",
+      "ContentRoot": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\",
       "BasePath": "_content/FreightMana",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -1442,10 +1442,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "FreightMana",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\",
+      "ContentRoot": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\",
       "BasePath": "_content/FreightMana",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -1461,10 +1461,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "FreightMana",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\",
+      "ContentRoot": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\",
       "BasePath": "_content/FreightMana",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -1480,10 +1480,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "FreightMana",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\",
+      "ContentRoot": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\",
       "BasePath": "_content/FreightMana",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -1499,10 +1499,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "FreightMana",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\",
+      "ContentRoot": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\",
       "BasePath": "_content/FreightMana",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -1518,10 +1518,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "FreightMana",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\",
+      "ContentRoot": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\",
       "BasePath": "_content/FreightMana",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -1537,10 +1537,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "FreightMana",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\",
+      "ContentRoot": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\",
       "BasePath": "_content/FreightMana",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -1556,10 +1556,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "FreightMana",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\",
+      "ContentRoot": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\",
       "BasePath": "_content/FreightMana",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -1575,10 +1575,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "FreightMana",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\",
+      "ContentRoot": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\",
       "BasePath": "_content/FreightMana",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -1594,10 +1594,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "FreightMana",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\",
+      "ContentRoot": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\",
       "BasePath": "_content/FreightMana",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -1613,10 +1613,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "FreightMana",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\",
+      "ContentRoot": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\",
       "BasePath": "_content/FreightMana",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -1632,10 +1632,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "FreightMana",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\",
+      "ContentRoot": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\",
       "BasePath": "_content/FreightMana",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -1651,10 +1651,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "FreightMana",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\",
+      "ContentRoot": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\",
       "BasePath": "_content/FreightMana",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -1670,10 +1670,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "FreightMana",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\",
+      "ContentRoot": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\",
       "BasePath": "_content/FreightMana",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -1689,10 +1689,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "FreightMana",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\",
+      "ContentRoot": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\",
       "BasePath": "_content/FreightMana",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -1708,10 +1708,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "FreightMana",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\",
+      "ContentRoot": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\",
       "BasePath": "_content/FreightMana",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -1727,10 +1727,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "FreightMana",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\",
+      "ContentRoot": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\",
       "BasePath": "_content/FreightMana",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -1746,10 +1746,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "FreightMana",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\",
+      "ContentRoot": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\",
       "BasePath": "_content/FreightMana",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -1765,10 +1765,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "FreightMana",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\",
+      "ContentRoot": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\",
       "BasePath": "_content/FreightMana",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -1784,10 +1784,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "FreightMana",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\",
+      "ContentRoot": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\",
       "BasePath": "_content/FreightMana",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -1803,10 +1803,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "FreightMana",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\",
+      "ContentRoot": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\",
       "BasePath": "_content/FreightMana",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -1822,10 +1822,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "FreightMana",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\",
+      "ContentRoot": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\",
       "BasePath": "_content/FreightMana",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -1841,10 +1841,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "FreightMana",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\",
+      "ContentRoot": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\",
       "BasePath": "_content/FreightMana",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -1860,10 +1860,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "FreightMana",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\",
+      "ContentRoot": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\",
       "BasePath": "_content/FreightMana",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -1879,10 +1879,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "FreightMana",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\",
+      "ContentRoot": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\",
       "BasePath": "_content/FreightMana",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -1898,10 +1898,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "FreightMana",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\",
+      "ContentRoot": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\",
       "BasePath": "_content/FreightMana",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -1917,10 +1917,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "FreightMana",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\",
+      "ContentRoot": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\",
       "BasePath": "_content/FreightMana",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -1936,10 +1936,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "FreightMana",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\",
+      "ContentRoot": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\",
       "BasePath": "_content/FreightMana",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -1955,10 +1955,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "FreightMana",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\",
+      "ContentRoot": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\",
       "BasePath": "_content/FreightMana",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -1974,10 +1974,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "FreightMana",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\",
+      "ContentRoot": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\",
       "BasePath": "_content/FreightMana",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -1993,10 +1993,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "FreightMana",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\",
+      "ContentRoot": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\",
       "BasePath": "_content/FreightMana",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -2012,10 +2012,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "FreightMana",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\",
+      "ContentRoot": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\",
       "BasePath": "_content/FreightMana",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -2031,10 +2031,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "FreightMana",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\",
+      "ContentRoot": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\",
       "BasePath": "_content/FreightMana",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -2050,10 +2050,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "FreightMana",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\",
+      "ContentRoot": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\",
       "BasePath": "_content/FreightMana",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -2069,10 +2069,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "FreightMana",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\",
+      "ContentRoot": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\",
       "BasePath": "_content/FreightMana",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -2088,10 +2088,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "FreightMana",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\",
+      "ContentRoot": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\",
       "BasePath": "_content/FreightMana",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -2107,10 +2107,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "FreightMana",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\",
+      "ContentRoot": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\",
       "BasePath": "_content/FreightMana",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -2126,10 +2126,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "FreightMana",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\",
+      "ContentRoot": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\",
       "BasePath": "_content/FreightMana",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -2145,10 +2145,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "FreightMana",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\",
+      "ContentRoot": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\",
       "BasePath": "_content/FreightMana",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -2164,10 +2164,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "FreightMana",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\",
+      "ContentRoot": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\",
       "BasePath": "_content/FreightMana",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -2183,10 +2183,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "FreightMana",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\",
+      "ContentRoot": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\",
       "BasePath": "_content/FreightMana",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -2202,10 +2202,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "FreightMana",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\",
+      "ContentRoot": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\",
       "BasePath": "_content/FreightMana",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -2221,10 +2221,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "FreightMana",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\",
+      "ContentRoot": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\",
       "BasePath": "_content/FreightMana",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
@@ -2240,10 +2240,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\List_order.html",
+      "Identity": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\List_order.html",
       "SourceId": "FreightMana",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\",
+      "ContentRoot": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\",
       "BasePath": "_content/FreightMana",
       "RelativePath": "List_order.html",
       "AssetKind": "All",
@@ -2259,10 +2259,10 @@
       "OriginalItemSpec": "wwwroot\\List_order.html"
     },
     {
-      "Identity": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\Login_admin.html",
+      "Identity": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\Login_admin.html",
       "SourceId": "FreightMana",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\",
+      "ContentRoot": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\",
       "BasePath": "_content/FreightMana",
       "RelativePath": "Login_admin.html",
       "AssetKind": "All",
@@ -2278,10 +2278,10 @@
       "OriginalItemSpec": "wwwroot\\Login_admin.html"
     },
     {
-      "Identity": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\Login_customer.html",
+      "Identity": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\Login_customer.html",
       "SourceId": "FreightMana",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\",
+      "ContentRoot": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\",
       "BasePath": "_content/FreightMana",
       "RelativePath": "Login_customer.html",
       "AssetKind": "All",
@@ -2297,10 +2297,10 @@
       "OriginalItemSpec": "wwwroot\\Login_customer.html"
     },
     {
-      "Identity": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\Our_service.html",
+      "Identity": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\Our_service.html",
       "SourceId": "FreightMana",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\",
+      "ContentRoot": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\",
       "BasePath": "_content/FreightMana",
       "RelativePath": "Our_service.html",
       "AssetKind": "All",
@@ -2316,10 +2316,10 @@
       "OriginalItemSpec": "wwwroot\\Our_service.html"
     },
     {
-      "Identity": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\Price.html",
+      "Identity": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\Price.html",
       "SourceId": "FreightMana",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\",
+      "ContentRoot": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\",
       "BasePath": "_content/FreightMana",
       "RelativePath": "Price.html",
       "AssetKind": "All",
@@ -2335,10 +2335,10 @@
       "OriginalItemSpec": "wwwroot\\Price.html"
     },
     {
-      "Identity": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\README.md",
+      "Identity": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\README.md",
       "SourceId": "FreightMana",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\",
+      "ContentRoot": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\",
       "BasePath": "_content/FreightMana",
       "RelativePath": "README.md",
       "AssetKind": "All",
@@ -2354,10 +2354,10 @@
       "OriginalItemSpec": "wwwroot\\README.md"
     },
     {
-      "Identity": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\Search.html",
+      "Identity": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\Search.html",
       "SourceId": "FreightMana",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\",
+      "ContentRoot": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\",
       "BasePath": "_content/FreightMana",
       "RelativePath": "Search.html",
       "AssetKind": "All",
@@ -2373,10 +2373,10 @@
       "OriginalItemSpec": "wwwroot\\Search.html"
     },
     {
-      "Identity": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\Staff.html",
+      "Identity": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\Staff.html",
       "SourceId": "FreightMana",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\",
+      "ContentRoot": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\",
       "BasePath": "_content/FreightMana",
       "RelativePath": "Staff.html",
       "AssetKind": "All",
@@ -2392,10 +2392,10 @@
       "OriginalItemSpec": "wwwroot\\Staff.html"
     },
     {
-      "Identity": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\Time_work.html",
+      "Identity": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\Time_work.html",
       "SourceId": "FreightMana",
       "SourceType": "Discovered",
-      "ContentRoot": "F:\\C#\\FManagement\\FreightMana\\wwwroot\\",
+      "ContentRoot": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\wwwroot\\",
       "BasePath": "_content/FreightMana",
       "RelativePath": "Time_work.html",
       "AssetKind": "All",
