@@ -77,7 +77,7 @@ namespace FreightMana.Controllers
             if (existingUser == null)
             {
                 ModelState.AddModelError("", "Email/số điện thoại hoặc mật khẩu không đúng.");
-                return View();
+                return View("Index");
             }
 
             HttpContext.Session.SetInt32("UserId", existingUser.Id);

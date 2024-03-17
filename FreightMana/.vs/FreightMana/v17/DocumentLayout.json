@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "E:\\Mew\\Code\\C#\\FManagement\\FreightMana\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{15973938-B011-4318-89C5-FE44B65A509D}|FreightMana.csproj|e:\\mew\\code\\c#\\fmanagement\\freightmana\\views\\customer\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{15973938-B011-4318-89C5-FE44B65A509D}|FreightMana.csproj|solutionrelative:views\\customer\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{15973938-B011-4318-89C5-FE44B65A509D}|FreightMana.csproj|e:\\mew\\code\\c#\\fmanagement\\freightmana\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{15973938-B011-4318-89C5-FE44B65A509D}|FreightMana.csproj|solutionrelative:views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{15973938-B011-4318-89C5-FE44B65A509D}|FreightMana.csproj|e:\\mew\\code\\c#\\fmanagement\\freightmana\\views\\customerorder\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{15973938-B011-4318-89C5-FE44B65A509D}|FreightMana.csproj|solutionrelative:views\\customerorder\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{15973938-B011-4318-89C5-FE44B65A509D}|FreightMana.csproj|e:\\mew\\code\\c#\\fmanagement\\freightmana\\views\\customer\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{15973938-B011-4318-89C5-FE44B65A509D}|FreightMana.csproj|solutionrelative:views\\customer\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +18,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "E:\\Mew\\Code\\C#\\FManagement\\FreightMana\\Views\\CustomerOrder\\Index.cshtml",
-              "RelativeDocumentMoniker": "Views\\CustomerOrder\\Index.cshtml",
-              "ToolTip": "E:\\Mew\\Code\\C#\\FManagement\\FreightMana\\Views\\CustomerOrder\\Index.cshtml",
-              "RelativeToolTip": "Views\\CustomerOrder\\Index.cshtml",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABoAAAAKAAAA",
+              "DocumentMoniker": "E:\\Mew\\Code\\C#\\FManagement\\FreightMana\\Views\\Dashboard\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Dashboard\\Index.cshtml",
+              "ToolTip": "E:\\Mew\\Code\\C#\\FManagement\\FreightMana\\Views\\Dashboard\\Index.cshtml",
+              "RelativeToolTip": "Views\\Dashboard\\Index.cshtml",
+              "ViewState": "AQIAAKIAAAAAAAAAAAAAAMAAAAAHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-16T11:40:43.311Z"
+              "WhenOpened": "2024-03-17T11:40:06.666Z",
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Index.cshtml",
               "DocumentMoniker": "E:\\Mew\\Code\\C#\\FManagement\\FreightMana\\Views\\Customer\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Customer\\Index.cshtml",
               "ToolTip": "E:\\Mew\\Code\\C#\\FManagement\\FreightMana\\Views\\Customer\\Index.cshtml",
               "RelativeToolTip": "Views\\Customer\\Index.cshtml",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAewBcAAAAnAAAA",
+              "ViewState": "AQIAAD8AAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-16T11:36:36.453Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-17T11:41:45.448Z",
+              "IsPinned": true
             }
           ]
         }
