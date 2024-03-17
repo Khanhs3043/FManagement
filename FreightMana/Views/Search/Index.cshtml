@@ -1,4 +1,5 @@
-﻿<!DOCTYPE html>
+﻿@model List<Order>
+<!DOCTYPE html>
 <html>
 
 <head>
@@ -70,8 +71,8 @@
                         </h2>
                     </div>
                     <br>
-                    <form>
-                        <input type="text" placeholder="Nhập mã đơn hàng bạn cần tra cứu" />
+                    <form action="/Search/Search" method="post">
+                        <input type="text" placeholder="Nhập mã đơn hàng bạn cần tra cứu" name="orderID" />
                         <button type="submit">
                             Tìm kiếm
                         </button>
@@ -92,15 +93,28 @@
                     <th>Tổng tiền</th>
                     <th>Trạng thái</th>
                 </tr>
-                <tr>
-                    <td>Nguyệt</td>
-                    <td>Nguyễn Thị Nguyệt</td>
-                    <td>0347698575</td>
-                    <td>Thôn 6, Quảng Giao, Quảng Xương, Thanh Hóa</td>
-                    <td>12000đ</td>
-                    <td>212000đ</td>
-                    <td>Đã nhập kho</td>
-                </tr>
+                @if (Model!=null)
+                {
+                        foreach(var order in Model)
+                    {
+                        <tr>
+                            <td>@order.OrderId</td>
+                            <td>@order.Sender.Name</td>
+                            <td>@order.Sender.PhoneNumber</td>
+                            <td>@order.Sender.Address</td>
+                            <td>@order.TransportFee</td>
+                            <td>@(order.TransportFee + order.Cod)</td>
+                            <td>@order.Status</td>
+                        </tr>
+                    }
+                    @if (Model.Count == 0)
+                    {
+                        <span style="color:red">Không tìm thấy đơn hàng !</span>
+                    }
+
+                }
+                
+
             </table>
         </div>
     </section>

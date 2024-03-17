@@ -35,8 +35,12 @@ public partial class ManaFreightmentContext : DbContext
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
+<<<<<<< HEAD
         => optionsBuilder.UseSqlServer("Data Source=Mew\\SQLEXPRESS;Initial Catalog=manaFreightment;User ID=sa;Password=TheHieuDoan;Connect Timeout=30;Encrypt=True;Trust Server Certificate=True;Application Intent=ReadWrite;Multi Subnet Failover=False");
       // => optionsBuilder.UseSqlServer("Data Source=DESKTOP-HUCDGBQ\\SQLEXPRESS;Initial Catalog=manaFreightment;User ID=sa;Password=tt13112003;Connect Timeout=30;Encrypt=True;Trust Server Certificate=True;Application Intent=ReadWrite;Multi Subnet Failover=False");
+=======
+       => optionsBuilder.UseSqlServer("Data Source=DESKTOP-HUCDGBQ\\SQLEXPRESS;Initial Catalog=manaFreightment;User ID=sa;Password=tt13112003;Connect Timeout=30;Encrypt=True;Trust Server Certificate=True;Application Intent=ReadWrite;Multi Subnet Failover=False");
+>>>>>>> 2f427e6b436554d929271b948b82dae6b2d16fa4
     //=> optionsBuilder.UseSqlServer("Data Source=3043-INS5510;Initial Catalog=manaFreightment;User ID=sa;Password=7777777;Connect Timeout=30;Encrypt=True;Trust Server Certificate=True;Application Intent=ReadWrite;Multi Subnet Failover=False");
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
