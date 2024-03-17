@@ -1,14 +1,86 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\Mew\\Code\\C#\\FManagement\\FreightMana\\",
+  "WorkspaceRootPath": "F:\\C#\\FManagement\\FreightMana\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{15973938-B011-4318-89C5-FE44B65A509D}|FreightMana.csproj|e:\\mew\\code\\c#\\fmanagement\\freightmana\\views\\customer\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{15973938-B011-4318-89C5-FE44B65A509D}|FreightMana.csproj|f:\\c#\\fmanagement\\freightmana\\controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15973938-B011-4318-89C5-FE44B65A509D}|FreightMana.csproj|solutionrelative:controllers\\customercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15973938-B011-4318-89C5-FE44B65A509D}|FreightMana.csproj|f:\\c#\\fmanagement\\freightmana\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15973938-B011-4318-89C5-FE44B65A509D}|FreightMana.csproj|solutionrelative:controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15973938-B011-4318-89C5-FE44B65A509D}|FreightMana.csproj|f:\\c#\\fmanagement\\freightmana\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{15973938-B011-4318-89C5-FE44B65A509D}|FreightMana.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15973938-B011-4318-89C5-FE44B65A509D}|FreightMana.csproj|f:\\c#\\fmanagement\\freightmana\\controllers\\customerordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15973938-B011-4318-89C5-FE44B65A509D}|FreightMana.csproj|solutionrelative:controllers\\customerordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15973938-B011-4318-89C5-FE44B65A509D}|FreightMana.csproj|f:\\c#\\fmanagement\\freightmana\\views\\customer\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{15973938-B011-4318-89C5-FE44B65A509D}|FreightMana.csproj|solutionrelative:views\\customer\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{15973938-B011-4318-89C5-FE44B65A509D}|FreightMana.csproj|e:\\mew\\code\\c#\\fmanagement\\freightmana\\views\\customerorder\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{15973938-B011-4318-89C5-FE44B65A509D}|FreightMana.csproj|f:\\c#\\fmanagement\\freightmana\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{15973938-B011-4318-89C5-FE44B65A509D}|FreightMana.csproj|solutionrelative:views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15973938-B011-4318-89C5-FE44B65A509D}|FreightMana.csproj|f:\\c#\\fmanagement\\freightmana\\views\\customerorder\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{15973938-B011-4318-89C5-FE44B65A509D}|FreightMana.csproj|solutionrelative:views\\customerorder\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15973938-B011-4318-89C5-FE44B65A509D}|FreightMana.csproj|f:\\c#\\fmanagement\\freightmana\\views\\staff\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{15973938-B011-4318-89C5-FE44B65A509D}|FreightMana.csproj|solutionrelative:views\\staff\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15973938-B011-4318-89C5-FE44B65A509D}|FreightMana.csproj|f:\\c#\\fmanagement\\freightmana\\views\\search\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{15973938-B011-4318-89C5-FE44B65A509D}|FreightMana.csproj|solutionrelative:views\\search\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15973938-B011-4318-89C5-FE44B65A509D}|FreightMana.csproj|f:\\c#\\fmanagement\\freightmana\\views\\price\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{15973938-B011-4318-89C5-FE44B65A509D}|FreightMana.csproj|solutionrelative:views\\price\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15973938-B011-4318-89C5-FE44B65A509D}|FreightMana.csproj|f:\\c#\\fmanagement\\freightmana\\views\\ourservice\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{15973938-B011-4318-89C5-FE44B65A509D}|FreightMana.csproj|solutionrelative:views\\ourservice\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15973938-B011-4318-89C5-FE44B65A509D}|FreightMana.csproj|f:\\c#\\fmanagement\\freightmana\\views\\logincustomer\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{15973938-B011-4318-89C5-FE44B65A509D}|FreightMana.csproj|solutionrelative:views\\logincustomer\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15973938-B011-4318-89C5-FE44B65A509D}|FreightMana.csproj|f:\\c#\\fmanagement\\freightmana\\views\\loginadmin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{15973938-B011-4318-89C5-FE44B65A509D}|FreightMana.csproj|solutionrelative:views\\loginadmin\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15973938-B011-4318-89C5-FE44B65A509D}|FreightMana.csproj|f:\\c#\\fmanagement\\freightmana\\views\\listorder\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{15973938-B011-4318-89C5-FE44B65A509D}|FreightMana.csproj|solutionrelative:views\\listorder\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15973938-B011-4318-89C5-FE44B65A509D}|FreightMana.csproj|f:\\c#\\fmanagement\\freightmana\\views\\creategoods\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{15973938-B011-4318-89C5-FE44B65A509D}|FreightMana.csproj|solutionrelative:views\\creategoods\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15973938-B011-4318-89C5-FE44B65A509D}|FreightMana.csproj|f:\\c#\\fmanagement\\freightmana\\views\\contactus\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{15973938-B011-4318-89C5-FE44B65A509D}|FreightMana.csproj|solutionrelative:views\\contactus\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15973938-B011-4318-89C5-FE44B65A509D}|FreightMana.csproj|f:\\c#\\fmanagement\\freightmana\\views\\confirm\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{15973938-B011-4318-89C5-FE44B65A509D}|FreightMana.csproj|solutionrelative:views\\confirm\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15973938-B011-4318-89C5-FE44B65A509D}|FreightMana.csproj|f:\\c#\\fmanagement\\freightmana\\views\\aboutus\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{15973938-B011-4318-89C5-FE44B65A509D}|FreightMana.csproj|solutionrelative:views\\aboutus\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15973938-B011-4318-89C5-FE44B65A509D}|FreightMana.csproj|f:\\c#\\fmanagement\\freightmana\\views\\createorder\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{15973938-B011-4318-89C5-FE44B65A509D}|FreightMana.csproj|solutionrelative:views\\createorder\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{15973938-B011-4318-89C5-FE44B65A509D}|FreightMana.csproj|f:\\c#\\fmanagement\\freightmana\\models\\manafreightmentcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{15973938-B011-4318-89C5-FE44B65A509D}|FreightMana.csproj|solutionrelative:models\\manafreightmentcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +90,252 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "DashboardController.cs",
+              "DocumentMoniker": "F:\\C#\\FManagement\\FreightMana\\Controllers\\DashboardController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DashboardController.cs",
+              "ToolTip": "F:\\C#\\FManagement\\FreightMana\\Controllers\\DashboardController.cs",
+              "RelativeToolTip": "Controllers\\DashboardController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABAAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-17T11:51:17.752Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "CustomerController.cs",
+              "DocumentMoniker": "F:\\C#\\FManagement\\FreightMana\\Controllers\\CustomerController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CustomerController.cs",
+              "ToolTip": "F:\\C#\\FManagement\\FreightMana\\Controllers\\CustomerController.cs",
+              "RelativeToolTip": "Controllers\\CustomerController.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAgwCgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-17T11:49:58.981Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "E:\\Mew\\Code\\C#\\FManagement\\FreightMana\\Views\\CustomerOrder\\Index.cshtml",
+              "DocumentMoniker": "F:\\C#\\FManagement\\FreightMana\\Views\\Dashboard\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Dashboard\\Index.cshtml",
+              "ToolTip": "F:\\C#\\FManagement\\FreightMana\\Views\\Dashboard\\Index.cshtml",
+              "RelativeToolTip": "Views\\Dashboard\\Index.cshtml",
+              "ViewState": "AQIAAGMAAAAAAAAAAAAAAA8AAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-17T11:23:02.974Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "F:\\C#\\FManagement\\FreightMana\\Views\\CustomerOrder\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\CustomerOrder\\Index.cshtml",
-              "ToolTip": "E:\\Mew\\Code\\C#\\FManagement\\FreightMana\\Views\\CustomerOrder\\Index.cshtml",
+              "ToolTip": "F:\\C#\\FManagement\\FreightMana\\Views\\CustomerOrder\\Index.cshtml",
               "RelativeToolTip": "Views\\CustomerOrder\\Index.cshtml",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAABoAAAAKAAAA",
+              "ViewState": "AQIAABAAAAAAAAAAAAAiwB8AAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-03-16T11:40:43.311Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
+              "Title": "CustomerOrderController.cs",
+              "DocumentMoniker": "F:\\C#\\FManagement\\FreightMana\\Controllers\\CustomerOrderController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CustomerOrderController.cs",
+              "ToolTip": "F:\\C#\\FManagement\\FreightMana\\Controllers\\CustomerOrderController.cs",
+              "RelativeToolTip": "Controllers\\CustomerOrderController.cs",
+              "ViewState": "AQIAADUAAAAAAAAAAAAUwD8AAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-17T10:55:52.76Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "E:\\Mew\\Code\\C#\\FManagement\\FreightMana\\Views\\Customer\\Index.cshtml",
+              "DocumentMoniker": "F:\\C#\\FManagement\\FreightMana\\Views\\Customer\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Customer\\Index.cshtml",
-              "ToolTip": "E:\\Mew\\Code\\C#\\FManagement\\FreightMana\\Views\\Customer\\Index.cshtml",
+              "ToolTip": "F:\\C#\\FManagement\\FreightMana\\Views\\Customer\\Index.cshtml",
               "RelativeToolTip": "Views\\Customer\\Index.cshtml",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAewBcAAAAnAAAA",
+              "ViewState": "AQIAAEkAAAAAAAAAAAAiwFEAAAAuAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-16T11:36:36.453Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-16T11:36:36.453Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "F:\\C#\\FManagement\\FreightMana\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "F:\\C#\\FManagement\\FreightMana\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAABgAAAAAAAAAAAAAABAAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-17T11:23:10.179Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "F:\\C#\\FManagement\\FreightMana\\Views\\Staff\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Staff\\Index.cshtml",
+              "ToolTip": "F:\\C#\\FManagement\\FreightMana\\Views\\Staff\\Index.cshtml",
+              "RelativeToolTip": "Views\\Staff\\Index.cshtml",
+              "ViewState": "AQIAADwAAAAAAAAAAAAAABEAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-17T11:24:00.461Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "F:\\C#\\FManagement\\FreightMana\\Views\\ListOrder\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\ListOrder\\Index.cshtml",
+              "ToolTip": "F:\\C#\\FManagement\\FreightMana\\Views\\ListOrder\\Index.cshtml",
+              "RelativeToolTip": "Views\\ListOrder\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-17T11:23:16.048Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "F:\\C#\\FManagement\\FreightMana\\Views\\LoginAdmin\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\LoginAdmin\\Index.cshtml",
+              "ToolTip": "F:\\C#\\FManagement\\FreightMana\\Views\\LoginAdmin\\Index.cshtml",
+              "RelativeToolTip": "Views\\LoginAdmin\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-17T11:23:22.331Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "F:\\C#\\FManagement\\FreightMana\\Views\\LoginCustomer\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\LoginCustomer\\Index.cshtml",
+              "ToolTip": "F:\\C#\\FManagement\\FreightMana\\Views\\LoginCustomer\\Index.cshtml",
+              "RelativeToolTip": "Views\\LoginCustomer\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAgAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-17T11:23:33.893Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "F:\\C#\\FManagement\\FreightMana\\Views\\OurService\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\OurService\\Index.cshtml",
+              "ToolTip": "F:\\C#\\FManagement\\FreightMana\\Views\\OurService\\Index.cshtml",
+              "RelativeToolTip": "Views\\OurService\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-17T11:23:40.793Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "F:\\C#\\FManagement\\FreightMana\\Views\\Price\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Price\\Index.cshtml",
+              "ToolTip": "F:\\C#\\FManagement\\FreightMana\\Views\\Price\\Index.cshtml",
+              "RelativeToolTip": "Views\\Price\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-17T11:23:46.727Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "F:\\C#\\FManagement\\FreightMana\\Views\\Search\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Search\\Index.cshtml",
+              "ToolTip": "F:\\C#\\FManagement\\FreightMana\\Views\\Search\\Index.cshtml",
+              "RelativeToolTip": "Views\\Search\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-17T11:23:51.427Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "F:\\C#\\FManagement\\FreightMana\\Views\\CreateGoods\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\CreateGoods\\Index.cshtml",
+              "ToolTip": "F:\\C#\\FManagement\\FreightMana\\Views\\CreateGoods\\Index.cshtml",
+              "RelativeToolTip": "Views\\CreateGoods\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-17T11:22:41.849Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "F:\\C#\\FManagement\\FreightMana\\Views\\ContactUs\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\ContactUs\\Index.cshtml",
+              "ToolTip": "F:\\C#\\FManagement\\FreightMana\\Views\\ContactUs\\Index.cshtml",
+              "RelativeToolTip": "Views\\ContactUs\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-17T11:22:35.159Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "F:\\C#\\FManagement\\FreightMana\\Views\\Confirm\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Confirm\\Index.cshtml",
+              "ToolTip": "F:\\C#\\FManagement\\FreightMana\\Views\\Confirm\\Index.cshtml",
+              "RelativeToolTip": "Views\\Confirm\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-17T11:22:28.531Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "F:\\C#\\FManagement\\FreightMana\\Views\\AboutUs\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\AboutUs\\Index.cshtml",
+              "ToolTip": "F:\\C#\\FManagement\\FreightMana\\Views\\AboutUs\\Index.cshtml",
+              "RelativeToolTip": "Views\\AboutUs\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-17T11:22:24.102Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "F:\\C#\\FManagement\\FreightMana\\Views\\CreateOrder\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\CreateOrder\\Index.cshtml",
+              "ToolTip": "F:\\C#\\FManagement\\FreightMana\\Views\\CreateOrder\\Index.cshtml",
+              "RelativeToolTip": "Views\\CreateOrder\\Index.cshtml",
+              "ViewState": "AQIAAPsAAAAAAAAAAAAAAAEBAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-03-17T10:51:16.668Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ManaFreightmentContext.cs",
+              "DocumentMoniker": "F:\\C#\\FManagement\\FreightMana\\Models\\ManaFreightmentContext.cs",
+              "RelativeDocumentMoniker": "Models\\ManaFreightmentContext.cs",
+              "ToolTip": "F:\\C#\\FManagement\\FreightMana\\Models\\ManaFreightmentContext.cs",
+              "RelativeToolTip": "Models\\ManaFreightmentContext.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAowCUAAACOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-17T10:28:09.127Z"
             }
           ]
         }
