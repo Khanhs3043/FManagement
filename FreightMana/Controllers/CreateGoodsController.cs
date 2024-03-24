@@ -69,9 +69,9 @@ namespace FreightMana.Controllers
                                     Address = senderAddress,
                                 };
                                 
-                               // db.Senders.RemoveRange(db.Senders.Where(r => r.Name == sender.Name));
+                                //db.Senders.RemoveRange(db.Senders.Where(r => r.Name == sender.Name));
                                 db.Senders.Add(sender);
-                                db.SaveChanges();
+                                //db.SaveChanges();
                                 //Thêm người nhận
                                 Receiver receiver = new Receiver()
                                 {

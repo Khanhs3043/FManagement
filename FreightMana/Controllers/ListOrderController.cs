@@ -54,5 +54,35 @@ namespace FreightMana.Controllers
 
             return View("Index", list);
         }
+        public IActionResult EditOrder(int orderId)
+        {
+            var order = db.Orders.Include(o => o.Receiver).Include(o => o.Sender)
+                .Include(o => o.Transport).Where(o=> o.OrderId == orderId).First();
+            return View(order);
+        }
+
+        [HttpPost]
+        public IActionResult ConfirmEdit(Order order)
+        {
+            var o = db.Orders.Include(o => o.Receiver).Include(o => o.Sender)
+                .Include(o => o.Transport).Where(o => o.OrderId == order.OrderId).First();
+            var sender = db.Senders.Find(order.SenderId);
+            sender.Name = order.Sender.Name;
+            sender.Address = o.Sender.Address;
+            var receiver = db.Receivers.Find(order.ReceiverId);
+            receiver.Address = o.Receiver.Address;
+            receiver.Name = order.Receiver.Name;    
+            receiver.PhoneNumber = order.Receiver.PhoneNumber; 
+            db.SaveChanges();
+            o.Cod = order.Cod;
+            o.TransportId= order.TransportId;
+            o.Note = order.Note;
+            o.Product = order.Product;
+            o.NumberOfProduct= order.NumberOfProduct;
+            db.SaveChanges();
+            
+            return RedirectToAction("Index");
+        }
+
     }
 }

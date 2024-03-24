@@ -28,5 +28,23 @@ namespace FreightMana.Controllers
             db.SaveChanges();
             return RedirectToAction("Index");
         }
+        public ActionResult editStaff(int id)
+        {
+            var eStaff = db.Staffs.FirstOrDefault(s=>s.Id == id);
+            return View(eStaff);
+        }
+        [HttpPost]
+
+        public ActionResult ConfirmEdit(Staff staff)
+        {   
+            Staff sf = db.Staffs.FirstOrDefault(s => s.Id == staff.Id);
+            sf.Id = staff.Id;
+            sf.Position = staff.Position;
+            sf.Name = staff.Name;
+            sf.PhoneNumber = staff.PhoneNumber;
+            sf.Email = staff.Email;
+            db.SaveChanges();
+            return RedirectToAction("Index");
+        }
     }
 }

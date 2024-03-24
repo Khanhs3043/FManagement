@@ -46,10 +46,6 @@
         <div class="nav-bar">
             <div class="infor">
                 <div class="avt">
-<<<<<<< HEAD
-
-=======
->>>>>>> b4b17b2e3abd9328ac3d3165160fb21244f8578f
                     <a href=""><img src="img/avt.png" alt=""></a>
                 </div>
                 <div class="name">
@@ -88,7 +84,31 @@
                     <input class="input confirml" type="submit" value="Hủy">
                 </form>
             </div>
+        </div>
+        <div id="myModal2" class="modal">
+            <!-- Modal content -->
+            <div class="modal-content">
+                <span class="close">×</span>
+                <form action="~/Staff/Confirm" method="post">
+                    <label for="name">Tên nhân viên</label>
+                    <input type="text" id="name" name="Name">
+                    <label for="email">Email</label><br>
+                    <input type="email" id="email" name="Email"><br>
+                    <label for="phone">Số điện thoại</label><br>
+                    <input type="tel" id="phone" name="PhoneNumber"><br>
 
+                    <label for="code">Chức vụ</label><br>
+                    <select id="shippingMethod" required name="Position">
+                        <option value="không có thông tin">Chọn chức vụ</option>
+                        <option value="Nhân viên">Nhân viên</option>
+                        <option value="Shipper">Shipper</option>
+                        <option value="Quản lý">Quản lý</option>
+
+                    </select><br>
+                    <input class="input confirml" type="submit" value="Xác nhận">
+                    <input class="input confirml" type="submit" value="Hủy">
+                </form>
+            </div>
         </div>
         <div class="staff-backgr">
             <table>
@@ -108,12 +128,18 @@
                         <td>@staff.PhoneNumber</td>
                         <td>@staff.Email</td>
                         <td>@staff.Position</td>
-                        <form action="~/Staff/Delete" method="post">
+                        
                         <td style="text-align: center">
-                            <button type="submit" name="id" value=@staff.Id><i class="fa-solid fa-trash-can"></i></button>
-                        </td>
-                        </form>
+                            <div class="2button" style="display:flex">
+                            <form action="~/Staff/Delete" method="post">
+                                    <button style="border:none;background-color: transparent" type="submit" name="id" value=@staff.Id><i class="fa-solid fa-trash-can"></i></button>
+							</form>
 
+                                <a style="padding-left:15px" href="~/Staff/editStaff?id=@staff.Id"><i class="fa-solid fa-pen-to-square"></i></a>
+							</div>
+                        </td>
+                        
+                        
                     </tr>
                 }
                

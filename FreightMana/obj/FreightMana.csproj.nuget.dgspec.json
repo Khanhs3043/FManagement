@@ -1,7 +1,6 @@
 {
   "format": 1,
   "restore": {
-<<<<<<< HEAD
     "D:\\Khanh3043\\FManagement\\FreightMana\\FreightMana.csproj": {}
   },
   "projects": {
@@ -16,41 +15,6 @@
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
-=======
-<<<<<<< HEAD
-    "E:\\Mew\\Code\\C#\\FManagement\\FreightMana\\FreightMana.csproj": {}
-  },
-  "projects": {
-    "E:\\Mew\\Code\\C#\\FManagement\\FreightMana\\FreightMana.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "E:\\Mew\\Code\\C#\\FManagement\\FreightMana\\FreightMana.csproj",
-        "projectName": "FreightMana",
-        "projectPath": "E:\\Mew\\Code\\C#\\FManagement\\FreightMana\\FreightMana.csproj",
-        "packagesPath": "C:\\Users\\HieuDoan\\.nuget\\packages\\",
-        "outputPath": "E:\\Mew\\Code\\C#\\FManagement\\FreightMana\\obj\\",
-=======
-    "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\FreightMana.csproj": {}
-  },
-  "projects": {
-    "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\FreightMana.csproj": {
-      "version": "1.0.0",
-      "restore": {
-        "projectUniqueName": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\FreightMana.csproj",
-        "projectName": "FreightMana",
-        "projectPath": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\FreightMana.csproj",
-        "packagesPath": "C:\\Users\\Dell\\.nuget\\packages\\",
-        "outputPath": "D:\\Khanh3043\\4.net\\FManagement\\FreightMana\\obj\\",
->>>>>>> 2f427e6b436554d929271b948b82dae6b2d16fa4
-        "projectStyle": "PackageReference",
-        "configFilePaths": [
-<<<<<<< HEAD
-          "C:\\Users\\HieuDoan\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
-=======
-          "C:\\Users\\Dell\\AppData\\Roaming\\NuGet\\NuGet.Config",
->>>>>>> 2f427e6b436554d929271b948b82dae6b2d16fa4
->>>>>>> b4b17b2e3abd9328ac3d3165160fb21244f8578f
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

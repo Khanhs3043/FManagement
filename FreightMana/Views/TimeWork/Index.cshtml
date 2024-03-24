@@ -63,73 +63,50 @@
             <span class="create_today">Tạo ca lấy hôm nay</span>
             <hr>
             <form action="/TimeWork/CreateShift" method="post">
-<<<<<<< HEAD
-            <div class="infor_time">
-                <div class="shift shift_name">
-                    <label>Nhân viên</label>
-                
-                        <select name="staffId" id="size3" required>
-                            @foreach(var staff in ViewBag.staffs)
-=======
+
                 <div class="infor_time">
                     <div class="shift shift_name">
                         <label>Nhân viên</label>
 
                         <select name="staffId" id="size3" required>
                             @foreach (var staff in ViewBag.staffs)
->>>>>>> b4b17b2e3abd9328ac3d3165160fb21244f8578f
+
                             {
                                 <option value="@staff.Id">@(staff.Id.ToString() + " - " + staff.Name + " (" + staff.Email + " - " + staff.PhoneNumber + ") ")</option>
                             }
                         </select>
-<<<<<<< HEAD
              
                 </div>
                
                 <div class="shift shift_shift">
                     <label>Ca</label>
                    
-=======
-
-                    </div>
-
-                    <div class="shift shift_shift">
-                        <label>Ca</label>
-
->>>>>>> b4b17b2e3abd9328ac3d3165160fb21244f8578f
                         <select name="timeRange">
                             <option value="morning">Buổi sáng (7:00 - 11:00)</option>
                             <option value="afternoon">Buổi chiều (12:00 - 17:00)</option>
                             <option value="evening">Buổi tối (18:00 - 22:00)</option>
                         </select>
-<<<<<<< HEAD
-                 
-                </div>
-                <div class="create_shift">
-                        <input type="submit" value="Tạo ca">
-                            </div>
-				</div>
-=======
+
 
                     </div>
                     <div class="create_shift">
                         <input type="submit" value="Tạo ca">
                     </div>
                 </div>
->>>>>>> b4b17b2e3abd9328ac3d3165160fb21244f8578f
+
                 @if (TempData["ErrorMessage"] != null)
                 {
                     <span style="color:red">@TempData["ErrorMessage"]</span>
                 }
-<<<<<<< HEAD
+
 			</form>
             
            
-=======
-            </form>
+
+           
 
 
->>>>>>> b4b17b2e3abd9328ac3d3165160fb21244f8578f
+
         </div>
         <div class="list_time">
             <span class="create_today">Danh sách ca lấy</span>
@@ -143,12 +120,8 @@
                     <th>Ca</th>
                     <th> </th>
                 </tr>
-<<<<<<< HEAD
 				@if (Model.Count != 0){
-=======
-                @if (Model.Count != 0)
-                {
->>>>>>> b4b17b2e3abd9328ac3d3165160fb21244f8578f
+
                     foreach (var shift in Model)
                     {
                         <tr>
@@ -159,21 +132,14 @@
                             <td>@(shift.TimeStart.ToString() + " - " + shift.TimeEnd.ToString())</td>
                             <td style="text-align: center">
                                 <form action="/TimeWork/DeleteShift" method="post">
-<<<<<<< HEAD
 									<button type="submit" name="id" value=@shift.Id><i class="fa-solid fa-trash-can"></i></button>
 								</form>
                             </td>
                         </tr>
                     }
 				}
-=======
-                                    <button type="submit" name="id" value=@shift.Id><i class="fa-solid fa-trash-can"></i></button>
-                                </form>
-                            </td>
-                        </tr>
-                    }
-                }
->>>>>>> b4b17b2e3abd9328ac3d3165160fb21244f8578f
+                           
+
             </table>
         </div>
         <script src="~/js/sidebar.js"></script>

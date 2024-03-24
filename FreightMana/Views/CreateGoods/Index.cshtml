@@ -130,13 +130,12 @@
                 }
             }
             <form action="/excel/upload" method="post" enctype="multipart/form-data" id="mform">
-            <input type="file" id="customFileInput" onchange="displayFileName(this)" accept=".xlsx, .xls" name="excelFile">
-                <label for="customFileInput" id="customFileLabel">Chọn file Excel</label>
-                <span id="selectedFileName"></span>
-
+           
              
             <div class="upload-file">
-                
+                    <input type="file" id="customFileInput" onchange="displayFileName(this)" accept=".xlsx, .xls" name="excelFile">
+                    <label for="customFileInput" id="customFileLabel">Chọn file Excel</label>
+                    <span id="selectedFileName"></span>      
                     <input type="button" value="Tải file mẫu" onclick="uploadFile()">
 				
 			</div></form>
@@ -151,7 +150,7 @@
                     <th>COD</th>
                     <th></th>
                 </tr>
-                @if (Model.Count!= 0)
+                @if (Model.Count!= 0 )
                 {
                     foreach (var order in Model)
                     {
@@ -160,7 +159,7 @@
                             <td>@order.Receiver.Address</td>
                             <td>@order.TransportFee</td>
                             <td>@order.Cod</td>
-                            <td></td>
+                            
                         </tr>
                     }
                 }
