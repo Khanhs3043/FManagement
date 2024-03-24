@@ -29,7 +29,7 @@
         <div class="nav-bar">
             <div class="infor">
                 <div class="avt">
-                    <a href=""><img src="img/avt.jpg" alt=""></a>
+                    <a href=""><img src="img/avt.png" alt=""></a>
                 </div>
                 <div class="name">
                     <span>@ViewBag.UserName</span>
@@ -79,19 +79,13 @@
                         <th style="width: 600px;">Trạng thái</th>
                     </tr>
                     <tr>
-                        <td>15:00</td>
-                        <td>MI1</td>
-                        <td>Nguyễn Thị Nguyệt</td>
+                        <td>@ViewBag.ConfirmAt</td>
+                        <td>@ViewBag.OrderID</td>
+                        <td>@ViewBag.ReceiverID</td>
                         <td>130.000</td>
                         <td>Giao hàng thành công</td>
                     </tr>
-                    <tr>
-                        <td>15:00</td>
-                        <td>MI1</td>
-                        <td>Nguyễn Thị Nguyệt</td>
-                        <td>130.000</td>
-                        <td>Đơn hàng đã bị hủy</td>
-                    </tr>
+                    
                 </table>
             </div>
 

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "2xYJUpeIt+8he2tZ3cE37KfKPsrrrFVbpq21RsVceDo=",
+  "Hash": "/WJ5ob3c0wFIGGh2pnunnYm0nKyHCqLHLC0eztvMmcA=",
   "Source": "FreightMana",
   "BasePath": "_content/FreightMana",
   "Mode": "Default",
@@ -625,12 +625,12 @@
       "OriginalItemSpec": "wwwroot\\img\\about-img.jpg"
     },
     {
-      "Identity": "D:\\Khanh3043\\FManagement\\FreightMana\\wwwroot\\img\\avt.jpg",
+      "Identity": "D:\\Khanh3043\\FManagement\\FreightMana\\wwwroot\\img\\avt.png",
       "SourceId": "FreightMana",
       "SourceType": "Discovered",
       "ContentRoot": "D:\\Khanh3043\\FManagement\\FreightMana\\wwwroot\\",
       "BasePath": "_content/FreightMana",
-      "RelativePath": "img/avt.jpg",
+      "RelativePath": "img/avt.png",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Primary",
@@ -641,7 +641,7 @@
       "AssetTraitValue": "",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\img\\avt.jpg"
+      "OriginalItemSpec": "wwwroot\\img\\avt.png"
     },
     {
       "Identity": "D:\\Khanh3043\\FManagement\\FreightMana\\wwwroot\\img\\backImg.jpg",
