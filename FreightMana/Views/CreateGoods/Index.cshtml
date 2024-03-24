@@ -50,7 +50,7 @@
                     <a href=""><img src="~/img/avt.jpg" alt=""></a>
                 </div>
                 <div class="name">
-                    <span>Nguyệt</span>
+                    <span>Admin</span>
                 </div>
                 <div class="log-out">
                     <div id="myLogout" class="logout-content">
@@ -68,7 +68,6 @@
 
                 if (file) {
                     document.getElementById('mform').submit();
-                    alert('Upload file thành công!');
                 } else {
                     alert('Vui lòng chọn một file Excel để tải lên!');
                 }
@@ -122,10 +121,11 @@
                         alert('@ViewBag.Noti');
                     </script>
                 }
-                if (ViewBag.err != null)
+                if (TempData["message"] != null)
                 {
+                
                     <script>
-                        alert('@ViewBag.err');
+                        alert('@Html.Raw(TempData["message"])');
                     </script>
                 }
             }
@@ -166,13 +166,7 @@
                 }
            
                 
-                <tr>
-                    <td>Nguyễn Thị Xuân Khánh</td>
-                    <td>Thôn Việt Trung, xã Quảng Giao, huyện Quảng Xương, tỉnh Thanh Hóa</td>
-                    <td>2.000.000</td>
-                    <td>12.000</td>
-                    <td></td>
-                </tr>
+                
             </table>
         </div>
     </nav>

@@ -1,4 +1,5 @@
 ﻿using FreightMana.Models;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 
@@ -7,7 +8,8 @@ namespace FreightMana.Controllers
 	public class DashboardController : Controller
     {
 		ManaFreightmentContext db = new ManaFreightmentContext();
-		public IActionResult Index()
+      //  [Authorize]
+        public IActionResult Index()
         {
 			var totalRevenue = db.Orders.Sum(o => o.TransportFee);
 			ViewBag.TotalRevenue = totalRevenue;

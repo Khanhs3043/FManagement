@@ -50,7 +50,7 @@
                     <a href=""><img src="~/img/avt.png" alt=""></a>
                 </div>
                 <div class="name">
-                    <span>Nguyệt</span>
+                    <span>Admin</span>
                 </div>
                 <div class="log-out">
                     <div id="myLogout" class="logout-content">
@@ -68,7 +68,8 @@
         </div>
         <div class="staff-backgr">
             <form method="post" action="@Url.Action("Confirm", "Confirm")">
-                <button type="submit" >Lưu</button>
+                <button type="submit"  >Lưu</button>
+            
             
             <table id="modal_order">
                 <tr>
@@ -84,9 +85,9 @@
                     var list = Model;
                 }
                 @for(int i =0;i<list.Count; i++)
-                {
+                    {
                     <tr>
-                        <td><span>OD</span>@list[i].OrderId.ToString("D3")</td>
+                        <td>@list[i].OrderId</td>
                         <td>@list[i].Receiver.Name</td>
                         <td>@list[i].Receiver.PhoneNumber</td>
                         <td>@list[i].Receiver.Address</td>
