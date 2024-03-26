@@ -1,6 +1,6 @@
 ﻿using FreightMana.Models;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Http; // Đảm bảo thêm namespace này để sử dụng HttpContext.Session
+using Microsoft.AspNetCore.Http; 
 
 namespace FreightMana.Controllers
 {

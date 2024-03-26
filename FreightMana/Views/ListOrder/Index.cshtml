@@ -82,6 +82,7 @@
                     <th>Cước phí</th>
                     <th>Tổng tiền</th>
                     <th>Trạng thái</th>
+                    <th></th>
                 </tr>
                 @{
                     var list = Model;
@@ -111,7 +112,12 @@
                                 </select>
                             
                         </td>
-                            <td><a href="~/ListOrder/EditOrder?orderId=@list[i].OrderId"><i class="fa-solid fa-pen-to-square"></a></td>
+                            <td>
+                                <div style="display:flex">
+									<a href="~/ListOrder/EditOrder?orderId=@list[i].OrderId"><i class="fa-solid fa-pen-to-square"></i></a>
+                                    <a href="~/ListOrder/DeleteOrder?orderId=@list[i].OrderId" style="padding-left:20px"><i class="fa-solid fa-trash-can"></i></a>
+                                </div>
+                            </td>
                     </tr>
                 }
                

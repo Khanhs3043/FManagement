@@ -54,5 +54,13 @@ namespace FreightMana.Controllers
 
             return View("Index", orders);
         }
+
+        public IActionResult DeleteOrder(int orderId)
+        {
+            var order = db.Orders.Find(orderId);
+            db.Orders.Remove(order);
+            db.SaveChanges();
+            return RedirectToAction("Index");
+        }
     }
 }
