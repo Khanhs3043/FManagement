@@ -11,11 +11,11 @@ namespace FreightMana.Controllers
       //  [Authorize]
         public IActionResult Index()
         {
-			var totalRevenue = db.Orders.Sum(o => o.TransportFee);
+			var totalRevenue = db.Orders.Where(o => o.Status != "Chờ xác nhận").Sum(o => o.TransportFee);
 			ViewBag.TotalRevenue = totalRevenue;
 
 			// Tính tổng số đơn hàng
-			int totalOrders = db.Orders.Count();
+			int totalOrders = db.Orders.Where(o => o.Status != "Chờ xác nhận").Count();
 			ViewBag.TotalOrders = totalOrders;
 
 			// Tính tổng số đơn hàng đã giao
@@ -41,8 +41,9 @@ namespace FreightMana.Controllers
                o.Cod,
                o.Transport.Cost,
                o.Status,
-               o.RecordAt
+               o.ConfirmAt
            })
+           .Where(o=>o.Status!="Chờ xác nhận")
            .ToList();
             ViewBag.AllOrders = allOrders;
 
@@ -58,7 +59,7 @@ namespace FreightMana.Controllers
                   o.Cod,
                   o.Transport.Cost,
                   o.Status,
-                  o.RecordAt
+                  o.ConfirmAt
               })
               .ToList();
             ViewBag.ShippingOrders = shippingOrders;
@@ -75,7 +76,7 @@ namespace FreightMana.Controllers
                   o.Cod,
                   o.Transport.Cost,
                   o.Status,
-                  o.RecordAt
+                  o.CompleteAt
               })
               .ToList();
             ViewBag.CompletedOrders = completedOrders;
@@ -92,7 +93,7 @@ namespace FreightMana.Controllers
                   o.Cod,
                   o.Transport.Cost,
                   o.Status,
-                  o.RecordAt
+                  o.CancelAt
               })
               .ToList();
             ViewBag.CancelOrders = cancelOrders;

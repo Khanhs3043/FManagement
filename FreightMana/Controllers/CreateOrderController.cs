@@ -2,6 +2,7 @@
 using FreightMana.Models;
 using Microsoft.AspNetCore.Diagnostics;
 using Microsoft.AspNetCore.Mvc;
+using OfficeOpenXml;
 
 namespace FreightMana.Controllers
 {
@@ -61,7 +62,7 @@ namespace FreightMana.Controllers
                 ReceiverId = receiver.Id,
                 SenderId = sender.Id,
                 TransportId = transportID,
-                TransportFee = transport.Cost,
+                TransportFee = (int)transport.Cost*(float)Calculate(kg,length,width,height),
                 Product = productName,
                 NumberOfProduct = numberOfProduct,
                 Cod = (float)cod,
@@ -75,6 +76,31 @@ namespace FreightMana.Controllers
             db.SaveChanges();
 
             return RedirectToAction("Index");
+        }
+
+        public double Calculate(
+            double kg,
+            double length,
+            double width,
+            double height)
+        {
+            double scale = 1;
+            if (length==1) scale *= 1;
+            else if (length==2) scale *= 1.2;
+            else if (length == 3) scale *= 1.4;
+
+            if (width == 1) scale *= 1;
+            else if (width == 2) scale *= 1.2;
+            else if (width == 3) scale *= 1.4;
+
+            if (height == 1) scale *= 1;
+            else if (height == 2) scale *= 1.2;
+            else if (height == 3) scale *= 1.4;
+
+            if (kg > 5) scale *= 1.5;
+            else if (kg <= 5 && kg>3) scale *= 1.2;
+            else scale *= 1;
+            return scale;
         }
     }
 }

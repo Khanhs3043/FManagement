@@ -104,7 +104,7 @@
                     @foreach(var i in ViewBag.AllOrders)
                     {
                         <tr>
-                            <td>@i.RecordAt.ToString()</td>
+                            <td>@i.ConfirmAt.ToString()</td>
                             <td><span>OD</span>@i.OrderId.ToString("D3")</td>
                             <td>@i.Name</td>
                             <td>@(i.Cost + i.Cod)</td>
@@ -128,7 +128,7 @@
                     @foreach (var i in ViewBag.ShippingOrders)
                     {
                         <tr>
-                            <td>@i.RecordAt.ToString()</td>
+                            <td>@i.ConfirmAt.ToString()</td>
                             <td><span>OD</span>@i.OrderId.ToString("D3")</td>
                             <td>@i.Name</td>
                             <td>@(i.Cost + i.Cod)</td>
@@ -152,7 +152,7 @@
                     @foreach (var i in ViewBag.CompletedOrders)
                     {
                         <tr>
-                            <td>@i.RecordAt.ToString()</td>
+                            <td>@i.CompleteAt.ToString()</td>
                             <td><span>OD</span>@i.OrderId.ToString("D3")</td>
                             <td>@i.Name</td>
                             <td>@(i.Cost + i.Cod)</td>
@@ -176,8 +176,8 @@
                     @foreach (var i in ViewBag.CancelOrders)
                     {
                         <tr>
-                            <td>@i.RecordAt.ToString()</td>
-                            <td><span>OD</span>@i.OrderId.ToString("D3")</td>
+                            <td>@i.CancelAt.ToString()</td>
+                            <td>@i.OrderId</td>
                             <td>@i.Name</td>
                             <td>@(i.Cost + i.Cod)</td>
                             <td>@i.Status</td>
